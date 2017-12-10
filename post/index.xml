@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Madhu Akula</title>
+    <link>https://madhuakula.com/post/</link>
+    <description>Recent content in Posts on Madhu Akula</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Madhu Akula</copyright>
+    <lastBuildDate>Wed, 26 Jul 2017 00:00:00 +0530</lastBuildDate>
+    <atom:link href="/post/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Security Vulnerabilities Advisories</title>
+      <link>https://madhuakula.com/post/security-vulnerabilities-advisories/</link>
+      <pubDate>Wed, 26 Jul 2017 00:00:00 +0530</pubDate>
+      
+      <guid>https://madhuakula.com/post/security-vulnerabilities-advisories/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;OSVDB-ID&lt;/th&gt;
+&lt;th&gt;CVE-ID&lt;/th&gt;
+&lt;th&gt;Application&lt;/th&gt;
+&lt;th&gt;Title&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;105051&lt;/td&gt;
+&lt;td&gt;2014-4329&lt;/td&gt;
+&lt;td&gt;Ntop-NG&lt;/td&gt;
+&lt;td&gt;ntopng lua/host_details.lua host Parameter Reflected XSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;105052&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;Ntop-NG&lt;/td&gt;
+&lt;td&gt;ntopng Unspecified CSRF&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;108608&lt;/td&gt;
+&lt;td&gt;2014-4722&lt;/td&gt;
+&lt;td&gt;OCS Inventory&lt;/td&gt;
+&lt;td&gt;OCS Inventory NG require/function_table_html.php gestion_donnees() Function Stored XSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;108952&lt;/td&gt;
+&lt;td&gt;2014-4853&lt;/td&gt;
+&lt;td&gt;OpenDocMan&lt;/td&gt;
+&lt;td&gt;OpenDocMan Uploaded Document Name Stored XSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;110410&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;PDF &amp;amp; Print (WPP)&lt;/td&gt;
+&lt;td&gt;Wordpress Plugin Vulnerabilities&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;110412&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;Google +1 (WPP)&lt;/td&gt;
+&lt;td&gt;Wordpress Plugin Vulnerabilities&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;110407&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;BestWebSoft Google Maps (WPP)&lt;/td&gt;
+&lt;td&gt;Wordpress Plugin Vulnerabilities&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;110405&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;Google Captcha (reCAPTCHA) (WPP)&lt;/td&gt;
+&lt;td&gt;Wordpress Plugin Vulnerabilities&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;110415&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;BestWebSoft Gallery (WPP)&lt;/td&gt;
+&lt;td&gt;Wordpress Plugin Vulnerabilities&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;110413&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;Captcha (WPP)&lt;/td&gt;
+&lt;td&gt;Wordpress Plugin Vulnerabilities&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;110403&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;Job board (WPP)&lt;/td&gt;
+&lt;td&gt;Wordpress Plugin Vulnerabilities&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;110397&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;Donate (WPP)&lt;/td&gt;
+&lt;td&gt;Wordpress Plugin Vulnerabilities&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;110399&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;Email Queue (WPP)&lt;/td&gt;
+&lt;td&gt;Wordpress Plugin Vulnerabilities&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;110395&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;Limit Attempts (WPP)&lt;/td&gt;
+&lt;td&gt;Wordpress Plugin Vulnerabilities&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;110396&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;Sender (WPP)&lt;/td&gt;
+&lt;td&gt;Wordpress Plugin Vulnerabilities&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;110398&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;Google AdSense (WPP)&lt;/td&gt;
+&lt;td&gt;Wordpress Plugin Vulnerabilities&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;110402&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;User Role (WPP)&lt;/td&gt;
+&lt;td&gt;Wordpress Plugin Vulnerabilities&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;110400&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;Quotes and Tips (WPP)&lt;/td&gt;
+&lt;td&gt;Wordpress Plugin Vulnerabilities&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;110401&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;Relevant - Related Posts (WPP)&lt;/td&gt;
+&lt;td&gt;Wordpress Plugin Vulnerabilities&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;110404&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;Htaccess (WPP)&lt;/td&gt;
+&lt;td&gt;Wordpress Plugin Vulnerabilities&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;110411&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;Contact Form To DB (WPP)&lt;/td&gt;
+&lt;td&gt;Wordpress Plugin Vulnerabilities&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;110406&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;BestWebSoft Portfolio (WPP)&lt;/td&gt;
+&lt;td&gt;Wordpress Plugin Vulnerabilities&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;110409&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;Twitter (WPP)&lt;/td&gt;
+&lt;td&gt;Wordpress Plugin Vulnerabilities&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;110414&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;Google Sitemap (WPP)&lt;/td&gt;
+&lt;td&gt;Wordpress Plugin Vulnerabilities&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;110408&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;Contact Form (WPP)&lt;/td&gt;
+&lt;td&gt;Wordpress Plugin Vulnerabilities&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Security Vulnerabilities Acknowledgements</title>
+      <link>https://madhuakula.com/post/security-vulnerabilities-acknowledgements/</link>
+      <pubDate>Wed, 26 Jul 2017 00:00:00 +0530</pubDate>
+      
+      <guid>https://madhuakula.com/post/security-vulnerabilities-acknowledgements/</guid>
+      <description>
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Organization&lt;/th&gt;
+&lt;th&gt;Vulnerability&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Google&lt;/td&gt;
+&lt;td&gt;BASM, XSS, DT&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Microsoft&lt;/td&gt;
+&lt;td&gt;XSS, UE&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Yahoo&lt;/td&gt;
+&lt;td&gt;XSS, PM&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Barracuda Labs&lt;/td&gt;
+&lt;td&gt;XSS, CSRF&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Adobe&lt;/td&gt;
+&lt;td&gt;BASM, XSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;At &amp;amp; t&lt;/td&gt;
+&lt;td&gt;CSRF&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Blackberry&lt;/td&gt;
+&lt;td&gt;CSRF, PD&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Magix AG&lt;/td&gt;
+&lt;td&gt;XSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Scanii&lt;/td&gt;
+&lt;td&gt;CSRF&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Linkedin&lt;/td&gt;
+&lt;td&gt;LB&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Twitch&lt;/td&gt;
+&lt;td&gt;XSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Twilio&lt;/td&gt;
+&lt;td&gt;XSS, BASM&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Tumblr&lt;/td&gt;
+&lt;td&gt;XSS, CSRF&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Smart Budget&lt;/td&gt;
+&lt;td&gt;CSRF&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Risk IO&lt;/td&gt;
+&lt;td&gt;XSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Get Pocket&lt;/td&gt;
+&lt;td&gt;IDOR&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Pager Duty&lt;/td&gt;
+&lt;td&gt;XSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Olark&lt;/td&gt;
+&lt;td&gt;CSRF&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Nitrous.io&lt;/td&gt;
+&lt;td&gt;XSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Mail Chimp&lt;/td&gt;
+&lt;td&gt;XSS, IDOR&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Magento&lt;/td&gt;
+&lt;td&gt;XSS, CSRF, IDOR, PE&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Logentires&lt;/td&gt;
+&lt;td&gt;XSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Librato&lt;/td&gt;
+&lt;td&gt;XSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Cisco&lt;/td&gt;
+&lt;td&gt;CSRF&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Heroku&lt;/td&gt;
+&lt;td&gt;CSRF, IDOR&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Pusher&lt;/td&gt;
+&lt;td&gt;UE&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Form Assembly&lt;/td&gt;
+&lt;td&gt;XSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Eventbrite&lt;/td&gt;
+&lt;td&gt;FU&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Dropmyemail&lt;/td&gt;
+&lt;td&gt;XSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Dropcam&lt;/td&gt;
+&lt;td&gt;IDOR, XSS, FU&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Constant Contact&lt;/td&gt;
+&lt;td&gt;XSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Blinksale&lt;/td&gt;
+&lt;td&gt;CSRF&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Bitcasa&lt;/td&gt;
+&lt;td&gt;BASM&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Apptentive&lt;/td&gt;
+&lt;td&gt;LB&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;123contactform&lt;/td&gt;
+&lt;td&gt;XSS, FU&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Appcelerator&lt;/td&gt;
+&lt;td&gt;AI&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Skmaster&lt;/td&gt;
+&lt;td&gt;IDOR&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Freshbooks&lt;/td&gt;
+&lt;td&gt;CSRF, XSS, TB&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;LocalBitcoins&lt;/td&gt;
+&lt;td&gt;XSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Muut&lt;/td&gt;
+&lt;td&gt;XSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;CloudApp&lt;/td&gt;
+&lt;td&gt;XSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;CloudFlare&lt;/td&gt;
+&lt;td&gt;CSRF, AI&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Docker&lt;/td&gt;
+&lt;td&gt;LB&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Stopthehacker&lt;/td&gt;
+&lt;td&gt;XSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Concrete5&lt;/td&gt;
+&lt;td&gt;IDOR&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;ebay&lt;/td&gt;
+&lt;td&gt;XSS, BASM&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Coindoe&lt;/td&gt;
+&lt;td&gt;XSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;KeenIO&lt;/td&gt;
+&lt;td&gt;TB, CSRF&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Distimo&lt;/td&gt;
+&lt;td&gt;LB&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Freshdesk&lt;/td&gt;
+&lt;td&gt;CSRF, AI&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Honeybadger.io&lt;/td&gt;
+&lt;td&gt;IDOR&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Vzaar&lt;/td&gt;
+&lt;td&gt;CSRF, XSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Abacus&lt;/td&gt;
+&lt;td&gt;AI&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Active State &amp;amp; Stackato&lt;/td&gt;
+&lt;td&gt;BASM&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;OpenpageCRM&lt;/td&gt;
+&lt;td&gt;BASM&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Pcloud&lt;/td&gt;
+&lt;td&gt;XSS, BASM&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Wepay&lt;/td&gt;
+&lt;td&gt;CSRF&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Zendesk&lt;/td&gt;
+&lt;td&gt;XSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;BufferApp&lt;/td&gt;
+&lt;td&gt;IDOR&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Compose&lt;/td&gt;
+&lt;td&gt;CSRF, XSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;GreenHouse&lt;/td&gt;
+&lt;td&gt;LB&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;500px&lt;/td&gt;
+&lt;td&gt;XSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Viadeo&lt;/td&gt;
+&lt;td&gt;BASM&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Unitag&lt;/td&gt;
+&lt;td&gt;XSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Hackerrank&lt;/td&gt;
+&lt;td&gt;XSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Sony&lt;/td&gt;
+&lt;td&gt;CSRF&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Factor.io&lt;/td&gt;
+&lt;td&gt;BASM&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Inflectra&lt;/td&gt;
+&lt;td&gt;XSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Movember&lt;/td&gt;
+&lt;td&gt;BASM&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;WHMCS&lt;/td&gt;
+&lt;td&gt;BASM, XSS, CSRF&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Acorns, LLC&lt;/td&gt;
+&lt;td&gt;BASM, XSS, IDOR&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Socrata&lt;/td&gt;
+&lt;td&gt;BASM, CSRF&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;legend&#34;&gt;Legend&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;AI: Authentication Issue&lt;/li&gt;
+&lt;li&gt;BASM: Broken Authentication &amp;amp; Session Management&lt;/li&gt;
+&lt;li&gt;CSRF: Cross Site Request Forgery&lt;/li&gt;
+&lt;li&gt;FU: File Upload Vulnerability&lt;/li&gt;
+&lt;li&gt;IDOR: Insecure Direct Object Reference&lt;/li&gt;
+&lt;li&gt;LB: Logical Bug&lt;/li&gt;
+&lt;li&gt;TB: Token Bypass Vulnerability&lt;/li&gt;
+&lt;li&gt;UE: Username Enumeration&lt;/li&gt;
+&lt;li&gt;XSS: Cross Site Scripting&lt;/li&gt;
+&lt;li&gt;PE: Privilege Escalation&lt;/li&gt;
+&lt;li&gt;PD: Path Disclosure&lt;/li&gt;
+&lt;li&gt;DT: Directory Traversal&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
