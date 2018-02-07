@@ -7,8 +7,89 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Madhu Akula</copyright>
-    <lastBuildDate>Fri, 27 Oct 2017 00:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 07 Feb 2018 00:00:00 +0530</lastBuildDate>
     <atom:link href="/talk/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AUTOMATED DEFENSE USING SERVERLESS FOR AWS, AZURE AND GCP</title>
+      <link>https://madhuakula.com/talk/blackhat-usa-2018/</link>
+      <pubDate>Wed, 07 Feb 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://madhuakula.com/talk/blackhat-usa-2018/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Participants will get&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Step by Step Gitbook covering the entire training (html, pdf, epub, mobi)&lt;/li&gt;
+&lt;li&gt;Custom Ansible Playbooks&lt;/li&gt;
+&lt;li&gt;Automated Defence Solution for AWS, Azure, GCP&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Some of the topics and techniques covered will include (at a minimum):&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Day one starts by setting the stage for automated defence by tackling Centralised Monitoring &amp;amp; Alerting System.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Understanding limitations of existing solutions&lt;/li&gt;
+&lt;li&gt;Setting &amp;amp; Hardening Elasticstack using Ansible Playbooks&lt;/li&gt;
+&lt;li&gt;Configuring Infrastructure to send logs&lt;/li&gt;
+&lt;li&gt;Attack patterns analysis and detection&lt;/li&gt;
+&lt;li&gt;Building attack monitoring dashboards&lt;/li&gt;
+&lt;li&gt;Setting up near real-time alerts (slack, email, etc.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Day two focus on advancing the setup by adding serverless stack to defend against the Infrastructure based on the near real-time alerts to match DevOps speed.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Getting started with serverless&lt;/li&gt;
+&lt;li&gt;Deploying serverless stack for defence&lt;/li&gt;
+&lt;li&gt;Automated attack generation&lt;/li&gt;
+&lt;li&gt;Automated defence using serverless stack&lt;/li&gt;
+&lt;li&gt;Near real-time alerts &amp;amp; defence with different attack simulations&lt;/li&gt;
+&lt;li&gt;Defenders CTF with scenarios&lt;/li&gt;
+&lt;li&gt;Best practices and deployment strategies&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;We will be deploying mostly in Amazon Web Services, with some demonstrations on Microsoft Azure and Google Cloud Platform. But serverless defence code will be given for three clouds.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;who-should-take-this-course&#34;&gt;WHO SHOULD TAKE THIS COURSE&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Security Engineers &amp;amp; Analysts&lt;/li&gt;
+&lt;li&gt;SOC Teams&lt;/li&gt;
+&lt;li&gt;DevOps Teams&lt;/li&gt;
+&lt;li&gt;Who is interested in automating security monitoring&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;student-requirements&#34;&gt;STUDENT REQUIREMENTS&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Able to use Linux CLI&lt;/li&gt;
+&lt;li&gt;Basic understanding of TCP/IP&lt;/li&gt;
+&lt;li&gt;Security Experience would be plus&lt;/li&gt;
+&lt;li&gt;Understanding about different cloud providers will be advantage&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;what-students-should-bring&#34;&gt;WHAT STUDENTS SHOULD BRING&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Laptop with admin/root privileges for VM setup and wireless connectivity&lt;/li&gt;
+&lt;li&gt;Students MUST sign up for AWS, Azure, GCP accounts before training begins&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;what-students-will-be-provided-with&#34;&gt;WHAT STUDENTS WILL BE PROVIDED WITH&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Customised VM with all the required tools installed&lt;/li&gt;
+&lt;li&gt;Step by Step Gitbook covering the entire training (html, pdf, epub, mobi)&lt;/li&gt;
+&lt;li&gt;Custom Ansible Playbooks&lt;/li&gt;
+&lt;li&gt;Automated Defence Solution for AWS, Azure, GCP&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Automated Defence for Cloud Security in AWS using Serverless</title>
@@ -175,15 +256,6 @@
       <pubDate>Sat, 10 Dec 2016 00:00:00 +0530</pubDate>
       
       <guid>https://madhuakula.com/talk/null-bangalore-bachaav-dec-2016/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Automated Infrastructure Security Monitoring using FOSS</title>
-      <link>https://madhuakula.com/talk/alldaydevops-2016/</link>
-      <pubDate>Tue, 15 Nov 2016 00:00:00 +0530</pubDate>
-      
-      <guid>https://madhuakula.com/talk/alldaydevops-2016/</guid>
       <description></description>
     </item>
     
