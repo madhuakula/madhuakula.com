@@ -32,6 +32,15 @@
     
     <url>
     
+      <loc>https://madhuakula.com/project/hacked-emails/</loc>
+      <lastmod>2018-02-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://madhuakula.com/talk/blackhat-usa-2018/</loc>
       <lastmod>2018-02-07T00:00:00+05:30</lastmod>
     </url>
@@ -288,7 +297,7 @@
     <url>
     
       <loc>https://madhuakula.com/tags/automation/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2018-02-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -376,6 +385,16 @@
     
     <url>
     
+      <loc>https://madhuakula.com/tags/golang/</loc>
+      <lastmod>2018-02-07T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://madhuakula.com/</loc>
       <lastmod>2017-07-26T00:00:00+05:30</lastmod>
       <priority>0</priority>
@@ -407,7 +426,7 @@
     <url>
     
       <loc>https://madhuakula.com/project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2018-02-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -435,7 +454,7 @@
     <url>
     
       <loc>https://madhuakula.com/tags/security/</loc>
-      <lastmod>2017-07-26T00:00:00+05:30</lastmod>
+      <lastmod>2018-02-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -445,7 +464,7 @@
     <url>
     
       <loc>https://madhuakula.com/tags/security/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-07-26T00:00:00+05:30</lastmod>
       <priority>0</priority>
     </url>
     
