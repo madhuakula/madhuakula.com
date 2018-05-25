@@ -32,6 +32,24 @@
     
     <url>
     
+      <loc>https://madhuakula.com/talk/appsec-eu-2018/</loc>
+      <lastmod>2018-05-25T00:00:00+05:30</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://madhuakula.com/talk/devhost-18/</loc>
+      <lastmod>2018-05-04T00:00:00+05:30</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://madhuakula.com/project/hacked-emails/</loc>
       <lastmod>2018-02-07T00:00:00+00:00</lastmod>
     </url>
@@ -106,6 +124,15 @@
     
       <loc>https://madhuakula.com/talk/wowlabz-guest-talk/</loc>
       <lastmod>2017-06-22T00:00:00+05:30</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://madhuakula.com/project/introduction-to-containers/</loc>
+      <lastmod>2017-06-03T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -335,6 +362,16 @@
     
     <url>
     
+      <loc>https://madhuakula.com/tags/containers/</loc>
+      <lastmod>2017-06-03T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://madhuakula.com/tags/datascience/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -346,7 +383,7 @@
     <url>
     
       <loc>https://madhuakula.com/tags/devops/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-06-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -366,7 +403,7 @@
     <url>
     
       <loc>https://madhuakula.com/tags/docker/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-06-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -445,17 +482,7 @@
     <url>
     
       <loc>https://madhuakula.com/talk/</loc>
-      <lastmod>2018-02-07T00:00:00+05:30</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://madhuakula.com/tags/security/</loc>
-      <lastmod>2018-02-07T00:00:00+00:00</lastmod>
-      <priority>0</priority>
+      <lastmod>2018-05-25T00:00:00+05:30</lastmod>
     </url>
     
   
@@ -465,6 +492,16 @@
     
       <loc>https://madhuakula.com/tags/security/</loc>
       <lastmod>2017-07-26T00:00:00+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://madhuakula.com/tags/security/</loc>
+      <lastmod>2018-02-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -494,7 +531,7 @@
     <url>
     
       <loc>https://madhuakula.com/tags/vulnerabilities/</loc>
-      <lastmod>2017-07-26T00:00:00+05:30</lastmod>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -504,7 +541,7 @@
     <url>
     
       <loc>https://madhuakula.com/tags/vulnerabilities/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-07-26T00:00:00+05:30</lastmod>
       <priority>0</priority>
     </url>
     

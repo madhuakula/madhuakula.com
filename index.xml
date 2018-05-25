@@ -605,6 +605,75 @@
     </item>
     
     <item>
+      <title>AUTOMATED DEFENSE USING SERVERLESS FOR AWS, AZURE AND GCP</title>
+      <link>https://madhuakula.com/talk/appsec-eu-2018/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://madhuakula.com/talk/appsec-eu-2018/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Scenarios&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SSH Bruteforce detection &amp;amp; defense&lt;/li&gt;
+&lt;li&gt;Content Management System Audit analysis&lt;/li&gt;
+&lt;li&gt;VPC flow logs to defend cloud services (AWS)&lt;/li&gt;
+&lt;li&gt;IAM CloudTrail logs to detect and defend against backdoors (AWS)&lt;/li&gt;
+&lt;li&gt;Container logs to audit Kubernetes security&lt;/li&gt;
+&lt;li&gt;Cloud Custodian for automated compliance&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Participants will get&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Customised VM with all the required tools installed&lt;/li&gt;
+&lt;li&gt;Step by Step Gitbook covering the entire training (html, pdf, epub, mobi)&lt;/li&gt;
+&lt;li&gt;Custom Ansible Playbooks, Terraform scripts, etc.&lt;/li&gt;
+&lt;li&gt;Automated Defence Solution for AWS, Azure, GCP&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Who Should Take This Course&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Security Engineers &amp;amp; Analysts&lt;/li&gt;
+&lt;li&gt;SOC Teams&lt;/li&gt;
+&lt;li&gt;DevOps Teams&lt;/li&gt;
+&lt;li&gt;Who is interested in automating security monitoring&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Student Requirements&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Laptop with admin/root privileges for VM setup and wireless connectivity.&lt;/li&gt;
+&lt;li&gt;Students MUST sign up for AWS, Azure, GCP accounts before training.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Requirements&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Able to use Linux CLI&lt;/li&gt;
+&lt;li&gt;Basic understanding of TCP/IP&lt;/li&gt;
+&lt;li&gt;Security Experience would be plus&lt;/li&gt;
+&lt;li&gt;Understanding about different cloud providers will be advantage&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hands-On Introduction to Modern Application Security</title>
+      <link>https://madhuakula.com/talk/devhost-18/</link>
+      <pubDate>Fri, 04 May 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://madhuakula.com/talk/devhost-18/</guid>
+      <description>
+
+&lt;h2 id=&#34;twitter&#34;&gt;Twitter&lt;/h2&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;I&amp;#39;ll be doing a Hands-On introduction to Application Security session at devhost:18 Students Developers Meet 2018. Excited to teach students about security after a long time :)&lt;a href=&#34;https://twitter.com/hashtag/OWASP?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#OWASP&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/AppSec?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#AppSec&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/Security?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Security&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/Meetup?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Meetup&lt;/a&gt; &lt;a href=&#34;https://t.co/cPaIpMVmaA&#34;&gt;pic.twitter.com/cPaIpMVmaA&lt;/a&gt;&lt;/p&gt;&amp;mdash; Madhu Akula (@madhuakula) &lt;a href=&#34;https://twitter.com/madhuakula/status/992321703761002496?ref_src=twsrc%5Etfw&#34;&gt;May 4, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>Hacked Emails</title>
       <link>https://madhuakula.com/project/hacked-emails/</link>
       <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
@@ -614,12 +683,23 @@
     </item>
     
     <item>
-      <title>AUTOMATED DEFENSE USING SERVERLESS FOR AWS, AZURE AND GCP</title>
+      <title>AUTOMATED DEFENSE USING CLOUD SERVICES FOR AWS, AZURE AND GCP</title>
       <link>https://madhuakula.com/talk/blackhat-usa-2018/</link>
       <pubDate>Wed, 07 Feb 2018 00:00:00 +0530</pubDate>
       
       <guid>https://madhuakula.com/talk/blackhat-usa-2018/</guid>
       <description>
+
+&lt;p&gt;&lt;strong&gt;Scenarios&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SSH Bruteforce detection &amp;amp; defense&lt;/li&gt;
+&lt;li&gt;Content Management System Audit analysis&lt;/li&gt;
+&lt;li&gt;VPC flow logs to defend cloud services (AWS)&lt;/li&gt;
+&lt;li&gt;IAM CloudTrail logs to detect and defend against backdoors (AWS)&lt;/li&gt;
+&lt;li&gt;Container logs to audit Kubernetes security
+Cloud Custodian for automated compliance&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Participants will get&lt;/strong&gt;&lt;/p&gt;
 
@@ -793,38 +873,20 @@
     </item>
     
     <item>
+      <title>Introduction to Containers</title>
+      <link>https://madhuakula.com/project/introduction-to-containers/</link>
+      <pubDate>Sat, 03 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://madhuakula.com/project/introduction-to-containers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>An Introduction to Containers using Docker and using it for Security Automation</title>
       <link>https://madhuakula.com/talk/null-bangalore-puliya-jun-2017/</link>
       <pubDate>Sat, 03 Jun 2017 00:00:00 +0530</pubDate>
       
       <guid>https://madhuakula.com/talk/null-bangalore-puliya-jun-2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Developers guide to security &amp; operations: Introducing DevSecOps</title>
-      <link>https://madhuakula.com/talk/software-security-bangalore-meetup-2017/</link>
-      <pubDate>Thu, 18 May 2017 00:00:00 +0530</pubDate>
-      
-      <guid>https://madhuakula.com/talk/software-security-bangalore-meetup-2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cloud Security for Everyone</title>
-      <link>https://madhuakula.com/talk/sdn-iot-enthusiasts-meetup-2017/</link>
-      <pubDate>Sat, 29 Apr 2017 00:00:00 +0530</pubDate>
-      
-      <guid>https://madhuakula.com/talk/sdn-iot-enthusiasts-meetup-2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux Security Internals</title>
-      <link>https://madhuakula.com/talk/null-bangalore-puliya-apr-2017/</link>
-      <pubDate>Sat, 22 Apr 2017 00:00:00 +0530</pubDate>
-      
-      <guid>https://madhuakula.com/talk/null-bangalore-puliya-apr-2017/</guid>
       <description></description>
     </item>
     
