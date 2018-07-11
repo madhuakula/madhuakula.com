@@ -32,6 +32,24 @@
     
     <url>
     
+      <loc>https://madhuakula.com/talk/defcon-26/</loc>
+      <lastmod>2018-07-11T00:00:00+05:30</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://madhuakula.com/talk/recon-village-2018/</loc>
+      <lastmod>2018-07-11T00:00:00+05:30</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://madhuakula.com/talk/appsec-eu-2018/</loc>
       <lastmod>2018-05-25T00:00:00+05:30</lastmod>
     </url>
@@ -482,17 +500,7 @@
     <url>
     
       <loc>https://madhuakula.com/talk/</loc>
-      <lastmod>2018-05-25T00:00:00+05:30</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://madhuakula.com/tags/security/</loc>
-      <lastmod>2017-07-26T00:00:00+05:30</lastmod>
-      <priority>0</priority>
+      <lastmod>2018-07-11T00:00:00+05:30</lastmod>
     </url>
     
   
@@ -502,6 +510,16 @@
     
       <loc>https://madhuakula.com/tags/security/</loc>
       <lastmod>2018-02-07T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://madhuakula.com/tags/security/</loc>
+      <lastmod>2017-07-26T00:00:00+05:30</lastmod>
       <priority>0</priority>
     </url>
     

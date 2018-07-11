@@ -11,7 +11,7 @@
   <meta name="description" content="Never Ending Learner!">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://madhuakula.com/talk/appsec-eu-2018/">
+  <link rel="alternate" hreflang="en-us" href="https://madhuakula.com/talk/recon-village-2018/">
 
   
   
@@ -70,7 +70,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://madhuakula.com/talk/appsec-eu-2018/">
+  <link rel="canonical" href="https://madhuakula.com/talk/recon-village-2018/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -78,22 +78,42 @@
   <meta property="twitter:creator" content="@https://twitter.com/madhuakula">
   
   <meta property="og:site_name" content="Madhu Akula">
-  <meta property="og:url" content="https://madhuakula.com/talk/appsec-eu-2018/">
-  <meta property="og:title" content="AUTOMATED DEFENSE USING SERVERLESS FOR AWS, AZURE AND GCP | Madhu Akula">
-  <meta property="og:description" content="Monitoring for attacks and defending against them in real-time is crucial. Defending our cloud infrastructure during attacks can prove to nightmare even with the currently available solutions in the market. We live in cloud first era where the cloud is our first choice of deployment due to the convenience and scalability. In this training we will learn how to defend our cloud infrastructure using Serverless technologies and Elastic Stack. Elasticstack will collect, analyse logs and triggers alerts based on configured rule-set. Serverless stack drives the defence to perform automated blocking. It will be configured based on the use case and type of attacks. The currently solution works on AWS, Azure and GCP. It can be extended for other providers and custom solutions like in house firewalls, IPS, etc.
+  <meta property="og:url" content="https://madhuakula.com/talk/recon-village-2018/">
+  <meta property="og:title" content="Building visualisation platforms for OSINT data using open source solutions | Madhu Akula">
+  <meta property="og:description" content="Reconnaissance is about gathering information. The information gathered is only as good as the insights and actionable decisions that we can gain from it. A lot of research is focused on finding OSINT data but little is done towards converting the data into insights and actionable decisions. Visualisation is an easy and efficient way to gain insights from any the data gleaned.
 
-The world is advancing towards accelerated deployments using DevOps and Cloud technologies. Automated defence will solve the modern world security challenges using near real-time alerting system, serverless technologies and centralised monitoring system.
+In this workshop, we will look at how we can gather OSINT data and visualise it using free and open source solutions. Visualising data is not enough, we’ll also look at how we can use the metrics to answer business questions and lead to actionable decisions.
+
+**We’ll tackle the problem by breaking it into following steps**
+
+* Gathering OSINT data
+* Storing the OSINT data
+* Processing &amp; visualising the data
+* Gaining insights and making actionable decisions
+
+**Some specific use-cases we’ll look at during the workshop includes**
+
+* Monitoring an organisation’s SSL/TLS certificates, domains and subdomains in near-real time
+* Creating dashboards using public datasets(scans.io) to gain insights into an organisation’s external posture
+* Building monitoring and alerting solutions using OSINT data that will help us take business decisions
+
+**Participants will get**
+
+* Step by Step Gitbook covering the entire training (html, pdf, epub, mobi)
+* Custom scripts, playbooks and tools used as part of the workshop
+* Scenarios that can be readily implemented for your use cases
+* References to the data used in the workshop”
 ">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2018-05-25T00:00:00&#43;05:30">
+  <meta property="article:published_time" content="2018-07-11T00:00:00&#43;05:30">
   
-  <meta property="article:modified_time" content="2018-05-25T00:00:00&#43;05:30">
-  
-
+  <meta property="article:modified_time" content="2018-07-11T00:00:00&#43;05:30">
   
 
-  <title>AUTOMATED DEFENSE USING SERVERLESS FOR AWS, AZURE AND GCP | Madhu Akula</title>
+  
+
+  <title>Building visualisation platforms for OSINT data using open source solutions | Madhu Akula</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -258,7 +278,7 @@ The world is advancing towards accelerated deployments using DevOps and Cloud te
   <div class="article-container">
 
     <div class="pub-title">
-      <h1 itemprop="name">AUTOMATED DEFENSE USING SERVERLESS FOR AWS, AZURE AND GCP</h1>
+      <h1 itemprop="name">Building visualisation platforms for OSINT data using open source solutions</h1>
       <span class="pub-authors" itemprop="author">
         
       </span>
@@ -270,9 +290,35 @@ The world is advancing towards accelerated deployments using DevOps and Cloud te
 
     
       <h3>Abstract</h3>
-      <p class="pub-abstract" itemprop="text"><p>Monitoring for attacks and defending against them in real-time is crucial. Defending our cloud infrastructure during attacks can prove to nightmare even with the currently available solutions in the market. We live in cloud first era where the cloud is our first choice of deployment due to the convenience and scalability. In this training we will learn how to defend our cloud infrastructure using Serverless technologies and Elastic Stack. Elasticstack will collect, analyse logs and triggers alerts based on configured rule-set. Serverless stack drives the defence to perform automated blocking. It will be configured based on the use case and type of attacks. The currently solution works on AWS, Azure and GCP. It can be extended for other providers and custom solutions like in house firewalls, IPS, etc.</p>
+      <p class="pub-abstract" itemprop="text"><p>Reconnaissance is about gathering information. The information gathered is only as good as the insights and actionable decisions that we can gain from it. A lot of research is focused on finding OSINT data but little is done towards converting the data into insights and actionable decisions. Visualisation is an easy and efficient way to gain insights from any the data gleaned.</p>
 
-<p>The world is advancing towards accelerated deployments using DevOps and Cloud technologies. Automated defence will solve the modern world security challenges using near real-time alerting system, serverless technologies and centralised monitoring system.</p>
+<p>In this workshop, we will look at how we can gather OSINT data and visualise it using free and open source solutions. Visualising data is not enough, we’ll also look at how we can use the metrics to answer business questions and lead to actionable decisions.</p>
+
+<p><strong>We’ll tackle the problem by breaking it into following steps</strong></p>
+
+<ul>
+<li>Gathering OSINT data</li>
+<li>Storing the OSINT data</li>
+<li>Processing &amp; visualising the data</li>
+<li>Gaining insights and making actionable decisions</li>
+</ul>
+
+<p><strong>Some specific use-cases we’ll look at during the workshop includes</strong></p>
+
+<ul>
+<li>Monitoring an organisation’s SSL/TLS certificates, domains and subdomains in near-real time</li>
+<li>Creating dashboards using public datasets(scans.io) to gain insights into an organisation’s external posture</li>
+<li>Building monitoring and alerting solutions using OSINT data that will help us take business decisions</li>
+</ul>
+
+<p><strong>Participants will get</strong></p>
+
+<ul>
+<li>Step by Step Gitbook covering the entire training (html, pdf, epub, mobi)</li>
+<li>Custom scripts, playbooks and tools used as part of the workshop</li>
+<li>Scenarios that can be readily implemented for your use cases</li>
+<li>References to the data used in the workshop”</li>
+</ul>
 </p>
     
 
@@ -283,12 +329,12 @@ The world is advancing towards accelerated deployments using DevOps and Cloud te
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
             
-            Jul 3, 2018
+            Aug 11, 2018
             <div class="talk-time">
               
-                8:00 AM
+                10:00 AM
                 
-                  &mdash; 5:00 PM
+                  &mdash; 12:00 PM
                 
               
             </div>
@@ -305,8 +351,8 @@ The world is advancing towards accelerated deployments using DevOps and Cloud te
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Event</div>
           <div class="col-xs-12 col-sm-9">
-            <a href="https://appseceurope2018a.sched.com/event/EgcU/2-day-training-automated-defense-using-serverless-for-aws-azure-and-gcp" target="_blank" rel="noopener">
-            Appsec EU 2018
+            <a href="http://reconvillage.org/talks-2018/#building-visualisation-platforms-for-osint-data-using-open-source-solutions---bharath-kumar-and-madhu-akula" target="_blank" rel="noopener">
+            Recon Village 2018
             </a>
           </div>
         </div>
@@ -321,7 +367,7 @@ The world is advancing towards accelerated deployments using DevOps and Cloud te
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Location</div>
-          <div class="col-xs-12 col-sm-9">London, England</div>
+          <div class="col-xs-12 col-sm-9">Las Vegas, USA</div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -334,51 +380,7 @@ The world is advancing towards accelerated deployments using DevOps and Cloud te
     <div class="space-below"></div>
 
     <div class="article-style">
-      <p><strong>Scenarios</strong></p>
-
-<ul>
-<li>SSH Bruteforce detection &amp; defense</li>
-<li>Content Management System Audit analysis</li>
-<li>VPC flow logs to defend cloud services (AWS)</li>
-<li>IAM CloudTrail logs to detect and defend against backdoors (AWS)</li>
-<li>Container logs to audit Kubernetes security</li>
-<li>Cloud Custodian for automated compliance</li>
-</ul>
-
-<p><strong>Participants will get</strong></p>
-
-<ul>
-<li>Customised VM with all the required tools installed</li>
-<li>Step by Step Gitbook covering the entire training (html, pdf, epub, mobi)</li>
-<li>Custom Ansible Playbooks, Terraform scripts, etc.</li>
-<li>Automated Defence Solution for AWS, Azure, GCP</li>
-</ul>
-
-<p><strong>Who Should Take This Course</strong></p>
-
-<ul>
-<li>Security Engineers &amp; Analysts</li>
-<li>SOC Teams</li>
-<li>DevOps Teams</li>
-<li>Who is interested in automating security monitoring</li>
-</ul>
-
-<p><strong>Student Requirements</strong></p>
-
-<ul>
-<li>Laptop with admin/root privileges for VM setup and wireless connectivity.</li>
-<li>Students MUST sign up for AWS, Azure, GCP accounts before training.</li>
-</ul>
-
-<p><strong>Requirements</strong></p>
-
-<ul>
-<li>Able to use Linux CLI</li>
-<li>Basic understanding of TCP/IP</li>
-<li>Security Experience would be plus</li>
-<li>Understanding about different cloud providers will be advantage</li>
-</ul>
-
+      
     </div>
 
     
@@ -391,12 +393,12 @@ The world is advancing towards accelerated deployments using DevOps and Cloud te
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://madhuakula.com/talk/devhost-18/"><span
-      aria-hidden="true">&larr;</span> Hands-On Introduction to Modern Application Security</a></li>
+    <li class="previous"><a href="https://madhuakula.com/talk/appsec-eu-2018/"><span
+      aria-hidden="true">&larr;</span> AUTOMATED DEFENSE USING SERVERLESS FOR AWS, AZURE AND GCP</a></li>
     
 
     
-    <li class="next"><a href="https://madhuakula.com/talk/recon-village-2018/">Building visualisation platforms for OSINT data using open source solutions <span
+    <li class="next"><a href="https://madhuakula.com/talk/defcon-26/">Attacking &amp; Auditing Docker Containers Using Open Source <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>

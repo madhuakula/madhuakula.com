@@ -605,6 +605,55 @@
     </item>
     
     <item>
+      <title>Attacking &amp; Auditing Docker Containers Using Open Source</title>
+      <link>https://madhuakula.com/talk/defcon-26/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://madhuakula.com/talk/defcon-26/</guid>
+      <description>
+
+&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Basic familiarity with Linux and Docker&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;materials&#34;&gt;Materials&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A laptop with administrator privileges&lt;/li&gt;
+&lt;li&gt;10 GB of free Hard Disk Space&lt;/li&gt;
+&lt;li&gt;Ideally 8 GB of RAM but minimum 4 GB&lt;/li&gt;
+&lt;li&gt;Laptop should support hardware-based virtualization
+
+&lt;ul&gt;
+&lt;li&gt;If your laptop can run a 64-bit virtual machine in Oracle VirtualBox it should work&lt;/li&gt;
+&lt;li&gt;Other virtualisation software might work but we will not be able to provide support for that.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;max-students&#34;&gt;Max students&lt;/h3&gt;
+
+&lt;p&gt;33&lt;/p&gt;
+
+&lt;h3 id=&#34;registration-class-full&#34;&gt;Registration: -CLASS FULL-&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.eventbrite.com/e/attacking-auditing-docker-containers-using-open-source-icon-e-tickets-47194085781&#34; target=&#34;_blank&#34;&gt;https://www.eventbrite.com/e/attacking-auditing-docker-containers-using-open-source-icon-e-tickets-47194085781&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;(Opens July 8, 2018 at 15:00 PDT)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Building visualisation platforms for OSINT data using open source solutions</title>
+      <link>https://madhuakula.com/talk/recon-village-2018/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://madhuakula.com/talk/recon-village-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>AUTOMATED DEFENSE USING SERVERLESS FOR AWS, AZURE AND GCP</title>
       <link>https://madhuakula.com/talk/appsec-eu-2018/</link>
       <pubDate>Fri, 25 May 2018 00:00:00 +0530</pubDate>
@@ -869,24 +918,6 @@ Cloud Custodian for automated compliance&lt;/li&gt;
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0530</pubDate>
       
       <guid>https://madhuakula.com/talk/wowlabz-guest-talk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Introduction to Containers</title>
-      <link>https://madhuakula.com/project/introduction-to-containers/</link>
-      <pubDate>Sat, 03 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://madhuakula.com/project/introduction-to-containers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>An Introduction to Containers using Docker and using it for Security Automation</title>
-      <link>https://madhuakula.com/talk/null-bangalore-puliya-jun-2017/</link>
-      <pubDate>Sat, 03 Jun 2017 00:00:00 +0530</pubDate>
-      
-      <guid>https://madhuakula.com/talk/null-bangalore-puliya-jun-2017/</guid>
       <description></description>
     </item>
     
