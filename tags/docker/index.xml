@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on Madhu Akula</title>
+    <link>https://madhuakula.com/tags/docker/</link>
+    <description>Recent content in Docker on Madhu Akula</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Madhu Akula</copyright>
+    <lastBuildDate>Sat, 03 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://madhuakula.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction to Containers</title>
+      <link>https://madhuakula.com/project/introduction-to-containers/</link>
+      <pubDate>Sat, 03 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://madhuakula.com/project/introduction-to-containers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker Data Science ToolBox</title>
+      <link>https://madhuakula.com/project/docker-data-science-toolbox/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://madhuakula.com/project/docker-data-science-toolbox/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

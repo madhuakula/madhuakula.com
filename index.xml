@@ -605,6 +605,63 @@
     </item>
     
     <item>
+      <title>Container Security Monitoring using Open Source</title>
+      <link>https://madhuakula.com/talk/alldaydevops-2018/</link>
+      <pubDate>Tue, 28 Aug 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://madhuakula.com/talk/alldaydevops-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Attacking &amp; Auditing Docker Containers</title>
+      <link>https://madhuakula.com/talk/usenix-lisa-2018/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://madhuakula.com/talk/usenix-lisa-2018/</guid>
+      <description>
+
+&lt;h3 id=&#34;who-should-attend&#34;&gt;Who should attend:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Penetration Testers&lt;/li&gt;
+&lt;li&gt;Security Engineers/Analysts&lt;/li&gt;
+&lt;li&gt;IT and System Administrators&lt;/li&gt;
+&lt;li&gt;DevOps and Security Teams&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;take-back-to-work&#34;&gt;Take back to work:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A Gitbook(pdf, epub, mobi) with complete workshop content&lt;/li&gt;
+&lt;li&gt;Virtual machines to learn &amp;amp; practice&lt;/li&gt;
+&lt;li&gt;Other references to learn more about topics covered in the workshop&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;topics-include&#34;&gt;Topics include:&lt;/h3&gt;
+
+&lt;p&gt;Docker, Containers, Security, Audit, DevSecOps, SecOps&lt;/p&gt;
+
+&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Able to run linux cli commands&lt;/li&gt;
+&lt;li&gt;Basics of system administration&lt;/li&gt;
+&lt;li&gt;Understanding about virutalisation would be useful&lt;/li&gt;
+&lt;li&gt;A laptop with administrator privileges&lt;/li&gt;
+&lt;li&gt;10 GB of free Hard Disk Space&lt;/li&gt;
+&lt;li&gt;Ideally 8 GB of RAM but minimum 4 GB&lt;/li&gt;
+&lt;li&gt;Laptop should support hardware-based virtualization
+
+&lt;ul&gt;
+&lt;li&gt;If your laptop can run a 64-bit virtual machine in Oracle VirtualBox it should work&lt;/li&gt;
+&lt;li&gt;Other virtualisation software might work but we will not be able to provide support for that.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Attacking &amp; Auditing Docker Containers Using Open Source</title>
       <link>https://madhuakula.com/talk/defcon-26/</link>
       <pubDate>Wed, 11 Jul 2018 00:00:00 +0530</pubDate>
@@ -641,6 +698,36 @@
 &lt;p&gt;&lt;a href=&#34;https://www.eventbrite.com/e/attacking-auditing-docker-containers-using-open-source-icon-e-tickets-47194085781&#34; target=&#34;_blank&#34;&gt;https://www.eventbrite.com/e/attacking-auditing-docker-containers-using-open-source-icon-e-tickets-47194085781&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;(Opens July 8, 2018 at 15:00 PDT)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Attacking &amp; Auditing Docker Containers Using Open Source</title>
+      <link>https://madhuakula.com/talk/owasp-bay-area-2018/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://madhuakula.com/talk/owasp-bay-area-2018/</guid>
+      <description>
+
+&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Basic familiarity with Linux and Docker&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;materials&#34;&gt;Materials&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A laptop with administrator privileges&lt;/li&gt;
+&lt;li&gt;10 GB of free Hard Disk Space&lt;/li&gt;
+&lt;li&gt;Ideally 8 GB of RAM but minimum 4 GB&lt;/li&gt;
+&lt;li&gt;Laptop should support hardware-based virtualization
+
+&lt;ul&gt;
+&lt;li&gt;If your laptop can run a 64-bit virtual machine in Oracle VirtualBox it should work&lt;/li&gt;
+&lt;li&gt;Other virtualisation software might work but we will not be able to provide support for that.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -885,40 +972,6 @@ Cloud Custodian for automated compliance&lt;/li&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
 </description>
-    </item>
-    
-    <item>
-      <title>Monitoring &amp; Defending Infrastructure Security Attacks</title>
-      <link>https://madhuakula.com/talk/c0c0n-2017/</link>
-      <pubDate>Thu, 17 Aug 2017 00:00:00 +0530</pubDate>
-      
-      <guid>https://madhuakula.com/talk/c0c0n-2017/</guid>
-      <description>
-
-&lt;h2 id=&#34;workshop-highlights&#34;&gt;Workshop Highlights&lt;/h2&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Cool dashboards for new version of &lt;a href=&#34;https://twitter.com/hashtag/Monitoring?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Monitoring&lt;/a&gt; &amp;amp; Defending &lt;a href=&#34;https://twitter.com/hashtag/Infrastructure?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Infrastructure&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/Security?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Security&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/Attacks?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Attacks&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/workshop?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#workshop&lt;/a&gt; at &lt;a href=&#34;https://twitter.com/_c0c0n_?ref_src=twsrc%5Etfw&#34;&gt;@_c0c0n_&lt;/a&gt; &lt;a href=&#34;https://t.co/dIRA7VfazQ&#34;&gt;https://t.co/dIRA7VfazQ&lt;/a&gt; &lt;a href=&#34;https://t.co/G40cu9DfT1&#34;&gt;pic.twitter.com/G40cu9DfT1&lt;/a&gt;&lt;/p&gt;&amp;mdash; Madhu Akula (@madhuakula) &lt;a href=&#34;https://twitter.com/madhuakula/status/896688799064875008?ref_src=twsrc%5Etfw&#34;&gt;August 13, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>DevOps principles to build your lean startup</title>
-      <link>https://madhuakula.com/talk/startup-leadership-program-webinar-2017/</link>
-      <pubDate>Tue, 27 Jun 2017 00:00:00 +0530</pubDate>
-      
-      <guid>https://madhuakula.com/talk/startup-leadership-program-webinar-2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Server Hardening and Security Monitoring</title>
-      <link>https://madhuakula.com/talk/wowlabz-guest-talk/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0530</pubDate>
-      
-      <guid>https://madhuakula.com/talk/wowlabz-guest-talk/</guid>
-      <description></description>
     </item>
     
   </channel>

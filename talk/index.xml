@@ -7,8 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Madhu Akula</copyright>
-    <lastBuildDate>Wed, 11 Jul 2018 00:00:00 +0530</lastBuildDate>
-    <atom:link href="/talk/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Aug 2018 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://madhuakula.com/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Container Security Monitoring using Open Source</title>
+      <link>https://madhuakula.com/talk/alldaydevops-2018/</link>
+      <pubDate>Tue, 28 Aug 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://madhuakula.com/talk/alldaydevops-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Attacking &amp; Auditing Docker Containers</title>
+      <link>https://madhuakula.com/talk/usenix-lisa-2018/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://madhuakula.com/talk/usenix-lisa-2018/</guid>
+      <description>Who should attend:  Penetration Testers Security Engineers/Analysts IT and System Administrators DevOps and Security Teams  Take back to work:  A Gitbook(pdf, epub, mobi) with complete workshop content Virtual machines to learn &amp;amp; practice Other references to learn more about topics covered in the workshop  Topics include: Docker, Containers, Security, Audit, DevSecOps, SecOps
+Prerequisites:  Able to run linux cli commands Basics of system administration Understanding about virutalisation would be useful A laptop with administrator privileges 10 GB of free Hard Disk Space Ideally 8 GB of RAM but minimum 4 GB Laptop should support hardware-based virtualization  If your laptop can run a 64-bit virtual machine in Oracle VirtualBox it should work Other virtualisation software might work but we will not be able to provide support for that.</description>
+    </item>
     
     <item>
       <title>Attacking &amp; Auditing Docker Containers Using Open Source</title>
@@ -16,38 +37,16 @@
       <pubDate>Wed, 11 Jul 2018 00:00:00 +0530</pubDate>
       
       <guid>https://madhuakula.com/talk/defcon-26/</guid>
-      <description>
-
-&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Basic familiarity with Linux and Docker&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;materials&#34;&gt;Materials&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;A laptop with administrator privileges&lt;/li&gt;
-&lt;li&gt;10 GB of free Hard Disk Space&lt;/li&gt;
-&lt;li&gt;Ideally 8 GB of RAM but minimum 4 GB&lt;/li&gt;
-&lt;li&gt;Laptop should support hardware-based virtualization
-
-&lt;ul&gt;
-&lt;li&gt;If your laptop can run a 64-bit virtual machine in Oracle VirtualBox it should work&lt;/li&gt;
-&lt;li&gt;Other virtualisation software might work but we will not be able to provide support for that.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;max-students&#34;&gt;Max students&lt;/h3&gt;
-
-&lt;p&gt;33&lt;/p&gt;
-
-&lt;h3 id=&#34;registration-class-full&#34;&gt;Registration: -CLASS FULL-&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.eventbrite.com/e/attacking-auditing-docker-containers-using-open-source-icon-e-tickets-47194085781&#34; target=&#34;_blank&#34;&gt;https://www.eventbrite.com/e/attacking-auditing-docker-containers-using-open-source-icon-e-tickets-47194085781&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;(Opens July 8, 2018 at 15:00 PDT)&lt;/p&gt;
-</description>
+      <description>Prerequisites  Basic familiarity with Linux and Docker  Materials  A laptop with administrator privileges 10 GB of free Hard Disk Space Ideally 8 GB of RAM but minimum 4 GB Laptop should support hardware-based virtualization  If your laptop can run a 64-bit virtual machine in Oracle VirtualBox it should work Other virtualisation software might work but we will not be able to provide support for that.   Max students 33</description>
+    </item>
+    
+    <item>
+      <title>Attacking &amp; Auditing Docker Containers Using Open Source</title>
+      <link>https://madhuakula.com/talk/owasp-bay-area-2018/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://madhuakula.com/talk/owasp-bay-area-2018/</guid>
+      <description> Prerequisites  Basic familiarity with Linux and Docker  Materials  A laptop with administrator privileges 10 GB of free Hard Disk Space Ideally 8 GB of RAM but minimum 4 GB Laptop should support hardware-based virtualization  If your laptop can run a 64-bit virtual machine in Oracle VirtualBox it should work Other virtualisation software might work but we will not be able to provide support for that.   </description>
     </item>
     
     <item>
@@ -65,51 +64,9 @@
       <pubDate>Fri, 25 May 2018 00:00:00 +0530</pubDate>
       
       <guid>https://madhuakula.com/talk/appsec-eu-2018/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Scenarios&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;SSH Bruteforce detection &amp;amp; defense&lt;/li&gt;
-&lt;li&gt;Content Management System Audit analysis&lt;/li&gt;
-&lt;li&gt;VPC flow logs to defend cloud services (AWS)&lt;/li&gt;
-&lt;li&gt;IAM CloudTrail logs to detect and defend against backdoors (AWS)&lt;/li&gt;
-&lt;li&gt;Container logs to audit Kubernetes security&lt;/li&gt;
-&lt;li&gt;Cloud Custodian for automated compliance&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Participants will get&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Customised VM with all the required tools installed&lt;/li&gt;
-&lt;li&gt;Step by Step Gitbook covering the entire training (html, pdf, epub, mobi)&lt;/li&gt;
-&lt;li&gt;Custom Ansible Playbooks, Terraform scripts, etc.&lt;/li&gt;
-&lt;li&gt;Automated Defence Solution for AWS, Azure, GCP&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Who Should Take This Course&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Security Engineers &amp;amp; Analysts&lt;/li&gt;
-&lt;li&gt;SOC Teams&lt;/li&gt;
-&lt;li&gt;DevOps Teams&lt;/li&gt;
-&lt;li&gt;Who is interested in automating security monitoring&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Student Requirements&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Laptop with admin/root privileges for VM setup and wireless connectivity.&lt;/li&gt;
-&lt;li&gt;Students MUST sign up for AWS, Azure, GCP accounts before training.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Requirements&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Able to use Linux CLI&lt;/li&gt;
-&lt;li&gt;Basic understanding of TCP/IP&lt;/li&gt;
-&lt;li&gt;Security Experience would be plus&lt;/li&gt;
-&lt;li&gt;Understanding about different cloud providers will be advantage&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Scenarios
+ SSH Bruteforce detection &amp;amp; defense Content Management System Audit analysis VPC flow logs to defend cloud services (AWS) IAM CloudTrail logs to detect and defend against backdoors (AWS) Container logs to audit Kubernetes security Cloud Custodian for automated compliance  Participants will get
+ Customised VM with all the required tools installed Step by Step Gitbook covering the entire training (html, pdf, epub, mobi) Custom Ansible Playbooks, Terraform scripts, etc.</description>
     </item>
     
     <item>
@@ -118,14 +75,8 @@
       <pubDate>Fri, 04 May 2018 00:00:00 +0530</pubDate>
       
       <guid>https://madhuakula.com/talk/devhost-18/</guid>
-      <description>
-
-&lt;h2 id=&#34;twitter&#34;&gt;Twitter&lt;/h2&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;I&amp;#39;ll be doing a Hands-On introduction to Application Security session at devhost:18 Students Developers Meet 2018. Excited to teach students about security after a long time :)&lt;a href=&#34;https://twitter.com/hashtag/OWASP?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#OWASP&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/AppSec?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#AppSec&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/Security?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Security&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/Meetup?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Meetup&lt;/a&gt; &lt;a href=&#34;https://t.co/cPaIpMVmaA&#34;&gt;pic.twitter.com/cPaIpMVmaA&lt;/a&gt;&lt;/p&gt;&amp;mdash; Madhu Akula (@madhuakula) &lt;a href=&#34;https://twitter.com/madhuakula/status/992321703761002496?ref_src=twsrc%5Etfw&#34;&gt;May 4, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
-</description>
+      <description> Twitter I&amp;#39;ll be doing a Hands-On introduction to Application Security session at devhost:18 Students Developers Meet 2018. Excited to teach students about security after a long time :)#OWASP #AppSec #Security #Meetup pic.twitter.com/cPaIpMVmaA
+&amp;mdash; Madhu Akula (@madhuakula) May 4, 2018  </description>
     </item>
     
     <item>
@@ -134,90 +85,9 @@
       <pubDate>Wed, 07 Feb 2018 00:00:00 +0530</pubDate>
       
       <guid>https://madhuakula.com/talk/blackhat-usa-2018/</guid>
-      <description>
-
-&lt;p&gt;&lt;strong&gt;Scenarios&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;SSH Bruteforce detection &amp;amp; defense&lt;/li&gt;
-&lt;li&gt;Content Management System Audit analysis&lt;/li&gt;
-&lt;li&gt;VPC flow logs to defend cloud services (AWS)&lt;/li&gt;
-&lt;li&gt;IAM CloudTrail logs to detect and defend against backdoors (AWS)&lt;/li&gt;
-&lt;li&gt;Container logs to audit Kubernetes security
-Cloud Custodian for automated compliance&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Participants will get&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Step by Step Gitbook covering the entire training (html, pdf, epub, mobi)&lt;/li&gt;
-&lt;li&gt;Custom Ansible Playbooks&lt;/li&gt;
-&lt;li&gt;Automated Defence Solution for AWS, Azure, GCP&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Some of the topics and techniques covered will include (at a minimum):&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Day one starts by setting the stage for automated defence by tackling Centralised Monitoring &amp;amp; Alerting System.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Understanding limitations of existing solutions&lt;/li&gt;
-&lt;li&gt;Setting &amp;amp; Hardening Elasticstack using Ansible Playbooks&lt;/li&gt;
-&lt;li&gt;Configuring Infrastructure to send logs&lt;/li&gt;
-&lt;li&gt;Attack patterns analysis and detection&lt;/li&gt;
-&lt;li&gt;Building attack monitoring dashboards&lt;/li&gt;
-&lt;li&gt;Setting up near real-time alerts (slack, email, etc.)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Day two focus on advancing the setup by adding serverless stack to defend against the Infrastructure based on the near real-time alerts to match DevOps speed.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Getting started with serverless&lt;/li&gt;
-&lt;li&gt;Deploying serverless stack for defence&lt;/li&gt;
-&lt;li&gt;Automated attack generation&lt;/li&gt;
-&lt;li&gt;Automated defence using serverless stack&lt;/li&gt;
-&lt;li&gt;Near real-time alerts &amp;amp; defence with different attack simulations&lt;/li&gt;
-&lt;li&gt;Defenders CTF with scenarios&lt;/li&gt;
-&lt;li&gt;Best practices and deployment strategies&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;We will be deploying mostly in Amazon Web Services, with some demonstrations on Microsoft Azure and Google Cloud Platform. But serverless defence code will be given for three clouds.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&#34;who-should-take-this-course&#34;&gt;WHO SHOULD TAKE THIS COURSE&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Security Engineers &amp;amp; Analysts&lt;/li&gt;
-&lt;li&gt;SOC Teams&lt;/li&gt;
-&lt;li&gt;DevOps Teams&lt;/li&gt;
-&lt;li&gt;Who is interested in automating security monitoring&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;student-requirements&#34;&gt;STUDENT REQUIREMENTS&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Able to use Linux CLI&lt;/li&gt;
-&lt;li&gt;Basic understanding of TCP/IP&lt;/li&gt;
-&lt;li&gt;Security Experience would be plus&lt;/li&gt;
-&lt;li&gt;Understanding about different cloud providers will be advantage&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;what-students-should-bring&#34;&gt;WHAT STUDENTS SHOULD BRING&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Laptop with admin/root privileges for VM setup and wireless connectivity&lt;/li&gt;
-&lt;li&gt;Students MUST sign up for AWS, Azure, GCP accounts before training begins&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;what-students-will-be-provided-with&#34;&gt;WHAT STUDENTS WILL BE PROVIDED WITH&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Customised VM with all the required tools installed&lt;/li&gt;
-&lt;li&gt;Step by Step Gitbook covering the entire training (html, pdf, epub, mobi)&lt;/li&gt;
-&lt;li&gt;Custom Ansible Playbooks&lt;/li&gt;
-&lt;li&gt;Automated Defence Solution for AWS, Azure, GCP&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Scenarios
+ SSH Bruteforce detection &amp;amp; defense Content Management System Audit analysis VPC flow logs to defend cloud services (AWS) IAM CloudTrail logs to detect and defend against backdoors (AWS) Container logs to audit Kubernetes security Cloud Custodian for automated compliance  Participants will get
+ Step by Step Gitbook covering the entire training (html, pdf, epub, mobi) Custom Ansible Playbooks Automated Defence Solution for AWS, Azure, GCP  Some of the topics and techniques covered will include (at a minimum):</description>
     </item>
     
     <item>
@@ -226,14 +96,8 @@ Cloud Custodian for automated compliance&lt;/li&gt;
       <pubDate>Fri, 27 Oct 2017 00:00:00 +0530</pubDate>
       
       <guid>https://madhuakula.com/talk/inserverless-2017/</guid>
-      <description>
-
-&lt;h2 id=&#34;blog-post&#34;&gt;Blog Post&lt;/h2&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;My experience, learning, feedback about recent &lt;a href=&#34;https://twitter.com/inserverless?ref_src=twsrc%5Etfw&#34;&gt;@inserverless&lt;/a&gt; conference &lt;a href=&#34;https://t.co/qs8uLIxiR4&#34;&gt;https://t.co/qs8uLIxiR4&lt;/a&gt;&lt;a href=&#34;https://twitter.com/hashtag/inserverless?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#inserverless&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/Serverless?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Serverless&lt;/a&gt;&lt;/p&gt;&amp;mdash; Madhu Akula (@madhuakula) &lt;a href=&#34;https://twitter.com/madhuakula/status/927425288681570306?ref_src=twsrc%5Etfw&#34;&gt;November 6, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
-</description>
+      <description> Blog Post My experience, learning, feedback about recent @inserverless conference https://t.co/qs8uLIxiR4#inserverless #Serverless
+&amp;mdash; Madhu Akula (@madhuakula) November 6, 2017  </description>
     </item>
     
     <item>
@@ -242,14 +106,8 @@ Cloud Custodian for automated compliance&lt;/li&gt;
       <pubDate>Tue, 24 Oct 2017 00:00:00 +0530</pubDate>
       
       <guid>https://madhuakula.com/talk/alldaydevops-2017/</guid>
-      <description>
-
-&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Slides from my talk at &lt;a href=&#34;https://twitter.com/AllDayDevOps?ref_src=twsrc%5Etfw&#34;&gt;@AllDayDevOps&lt;/a&gt; about Modern Security Operations aka Secure DevOps&lt;a href=&#34;https://t.co/ZiPWQyNCNT&#34;&gt;https://t.co/ZiPWQyNCNT&lt;/a&gt;&lt;a href=&#34;https://twitter.com/hashtag/DevSecOps?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DevSecOps&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/AllDayDevOps?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#AllDayDevOps&lt;/a&gt;&lt;/p&gt;&amp;mdash; Madhu Akula (@madhuakula) &lt;a href=&#34;https://twitter.com/madhuakula/status/923254239140364288?ref_src=twsrc%5Etfw&#34;&gt;October 25, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
-</description>
+      <description> Slides Slides from my talk at @AllDayDevOps about Modern Security Operations aka Secure DevOpshttps://t.co/ZiPWQyNCNT#DevSecOps #AllDayDevOps
+&amp;mdash; Madhu Akula (@madhuakula) October 25, 2017  </description>
     </item>
     
     <item>
@@ -258,14 +116,8 @@ Cloud Custodian for automated compliance&lt;/li&gt;
       <pubDate>Fri, 20 Oct 2017 00:00:00 +0530</pubDate>
       
       <guid>https://madhuakula.com/talk/devseccon-london-2017/</guid>
-      <description>
-
-&lt;h2 id=&#34;blog-post&#34;&gt;Blog Post&lt;/h2&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;We can&amp;#39;t wait for this workshop by &lt;a href=&#34;https://twitter.com/madhuakula?ref_src=twsrc%5Etfw&#34;&gt;@madhuakula&lt;/a&gt; &lt;a href=&#34;https://twitter.com/appseccouk?ref_src=twsrc%5Etfw&#34;&gt;@appseccouk&lt;/a&gt; at &lt;a href=&#34;https://twitter.com/hashtag/DevSecCon?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DevSecCon&lt;/a&gt; London this week! &lt;a href=&#34;https://t.co/cKWUlGtaTK&#34;&gt;https://t.co/cKWUlGtaTK&lt;/a&gt;&lt;/p&gt;&amp;mdash; DevSecCon (@devseccon) &lt;a href=&#34;https://twitter.com/devseccon/status/920596212813877248?ref_src=twsrc%5Etfw&#34;&gt;October 18, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
-</description>
+      <description> Blog Post We can&amp;#39;t wait for this workshop by @madhuakula @appseccouk at #DevSecCon London this week! https://t.co/cKWUlGtaTK
+&amp;mdash; DevSecCon (@devseccon) October 18, 2017  </description>
     </item>
     
     <item>
@@ -274,14 +126,8 @@ Cloud Custodian for automated compliance&lt;/li&gt;
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0530</pubDate>
       
       <guid>https://madhuakula.com/talk/devseccon-boston-2017/</guid>
-      <description>
-
-&lt;h2 id=&#34;blog-post&#34;&gt;Blog Post&lt;/h2&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Real World Security Monitoring &amp;amp; Automated Defence workshop at &lt;a href=&#34;https://twitter.com/devseccon?ref_src=twsrc%5Etfw&#34;&gt;@devseccon&lt;/a&gt; Boston by &lt;a href=&#34;https://twitter.com/appseccouk?ref_src=twsrc%5Etfw&#34;&gt;@appseccouk&lt;/a&gt; &lt;a href=&#34;https://t.co/DJQ06LZoZS&#34;&gt;https://t.co/DJQ06LZoZS&lt;/a&gt;&lt;/p&gt;&amp;mdash; Madhu Akula (@madhuakula) &lt;a href=&#34;https://twitter.com/madhuakula/status/906058686358994944?ref_src=twsrc%5Etfw&#34;&gt;September 8, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
-</description>
+      <description> Blog Post Real World Security Monitoring &amp;amp; Automated Defence workshop at @devseccon Boston by @appseccouk https://t.co/DJQ06LZoZS
+&amp;mdash; Madhu Akula (@madhuakula) September 8, 2017  </description>
     </item>
     
     <item>
@@ -290,14 +136,8 @@ Cloud Custodian for automated compliance&lt;/li&gt;
       <pubDate>Thu, 17 Aug 2017 00:00:00 +0530</pubDate>
       
       <guid>https://madhuakula.com/talk/c0c0n-2017/</guid>
-      <description>
-
-&lt;h2 id=&#34;workshop-highlights&#34;&gt;Workshop Highlights&lt;/h2&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Cool dashboards for new version of &lt;a href=&#34;https://twitter.com/hashtag/Monitoring?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Monitoring&lt;/a&gt; &amp;amp; Defending &lt;a href=&#34;https://twitter.com/hashtag/Infrastructure?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Infrastructure&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/Security?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Security&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/Attacks?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Attacks&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/workshop?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#workshop&lt;/a&gt; at &lt;a href=&#34;https://twitter.com/_c0c0n_?ref_src=twsrc%5Etfw&#34;&gt;@_c0c0n_&lt;/a&gt; &lt;a href=&#34;https://t.co/dIRA7VfazQ&#34;&gt;https://t.co/dIRA7VfazQ&lt;/a&gt; &lt;a href=&#34;https://t.co/G40cu9DfT1&#34;&gt;pic.twitter.com/G40cu9DfT1&lt;/a&gt;&lt;/p&gt;&amp;mdash; Madhu Akula (@madhuakula) &lt;a href=&#34;https://twitter.com/madhuakula/status/896688799064875008?ref_src=twsrc%5Etfw&#34;&gt;August 13, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
-</description>
+      <description> Workshop Highlights Cool dashboards for new version of #Monitoring &amp;amp; Defending #Infrastructure #Security #Attacks #workshop at @_c0c0n_ https://t.co/dIRA7VfazQ pic.twitter.com/G40cu9DfT1
+&amp;mdash; Madhu Akula (@madhuakula) August 13, 2017  </description>
     </item>
     
     <item>
@@ -343,6 +183,84 @@ Cloud Custodian for automated compliance&lt;/li&gt;
       
       <guid>https://madhuakula.com/talk/sdn-iot-enthusiasts-meetup-2017/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Linux Security Internals</title>
+      <link>https://madhuakula.com/talk/null-bangalore-puliya-apr-2017/</link>
+      <pubDate>Sat, 22 Apr 2017 00:00:00 +0530</pubDate>
+      
+      <guid>https://madhuakula.com/talk/null-bangalore-puliya-apr-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated infrastructure security monitoring and defence</title>
+      <link>https://madhuakula.com/talk/devseccon-singapore-2017/</link>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0530</pubDate>
+      
+      <guid>https://madhuakula.com/talk/devseccon-singapore-2017/</guid>
+      <description> Tweets Find out how to monitor for application attacks and defend them in real-time, in our workshop at #DevSecCon Asia https://t.co/Zj696Y9NDE pic.twitter.com/CBxT1sjV8k
+&amp;mdash; DevSecCon (@devseccon) February 13, 2017  </description>
+    </item>
+    
+    <item>
+      <title>Automating Documentation, Presentation, Knowledge base using Markdown (Zero to Hero)</title>
+      <link>https://madhuakula.com/talk/null-bangalore-puliya-feb-2017/</link>
+      <pubDate>Sat, 11 Feb 2017 00:00:00 +0530</pubDate>
+      
+      <guid>https://madhuakula.com/talk/null-bangalore-puliya-feb-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated Infrastructure Security Monitoring &amp; Defence</title>
+      <link>https://madhuakula.com/talk/null-bangalore-bachaav-dec-2016/</link>
+      <pubDate>Sat, 10 Dec 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://madhuakula.com/talk/null-bangalore-bachaav-dec-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated Infrastructure Security Monitoring using FOSS</title>
+      <link>https://madhuakula.com/talk/alldaydevops-2016/</link>
+      <pubDate>Tue, 15 Nov 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://madhuakula.com/talk/alldaydevops-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Infrastructure Security Monitoring</title>
+      <link>https://madhuakula.com/talk/devops-days-2016/</link>
+      <pubDate>Fri, 04 Nov 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://madhuakula.com/talk/devops-days-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ninja level infrastructure monitoring</title>
+      <link>https://madhuakula.com/talk/devseccon-london-2016/</link>
+      <pubDate>Thu, 20 Oct 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://madhuakula.com/talk/devseccon-london-2016/</guid>
+      <description> Tweets Attend a two-hour workshop about Ninja level Infrastructure Monitoring at #DevSecCon next week https://t.co/jHv1FprqDf pic.twitter.com/XPLNj5mg6p
+&amp;mdash; DevSecCon (@devseccon) October 12, 2016  Me and @makash doing Infrastructure Monitoring Workshop tomorrow at #devseccon https://t.co/Yx6Ow03GOg
+cc:@devseccon @appseccouk #DevSecOps
+&amp;mdash; Madhu Akula (@madhuakula) October 19, 2016  </description>
+    </item>
+    
+    <item>
+      <title>Ninja level Infrastructure Monitoring : Defensive approach to Security Monitoring &amp; Automation</title>
+      <link>https://madhuakula.com/talk/defcon-24/</link>
+      <pubDate>Sat, 06 Aug 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://madhuakula.com/talk/defcon-24/</guid>
+      <description> Blog Post “All set for our Ninja Level Infrastructure Monitoring workshop @Defcon 24” https://t.co/JQ9vMglQ39
+cc: @riyazwalikar @appseccouk
+&amp;mdash; Madhu Akula (@madhuakula) August 2, 2016  </description>
     </item>
     
   </channel>
