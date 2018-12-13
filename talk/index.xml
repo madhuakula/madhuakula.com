@@ -6,11 +6,38 @@
     <description>Recent content in Recent &amp; Upcoming Talks on Madhu Akula</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Madhu Akula</copyright>
-    <lastBuildDate>Tue, 28 Aug 2018 00:00:00 +0530</lastBuildDate>
+    <copyright>&amp;copy; 2018 Madhu Akula</copyright>
+    <lastBuildDate>Fri, 19 Oct 2018 00:00:00 +0530</lastBuildDate>
     
 	<atom:link href="https://madhuakula.com/talk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ATTACKING &amp; AUDITING DOCKER CONTAINERS</title>
+      <link>https://madhuakula.com/talk/devseccon-london-2018/</link>
+      <pubDate>Fri, 19 Oct 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://madhuakula.com/talk/devseccon-london-2018/</guid>
+      <description>Blog Post https://www.linkedin.com/pulse/attacking-auditing-docker-containers-workshop-devseccon-madhu-akula/</description>
+    </item>
+    
+    <item>
+      <title>Continuous security monitoring in CI and CD pipelines</title>
+      <link>https://madhuakula.com/talk/iwomm-meetup-2018/</link>
+      <pubDate>Thu, 18 Oct 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://madhuakula.com/talk/iwomm-meetup-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ATTACKING &amp; AUDITING DOCKER CONTAINERS</title>
+      <link>https://madhuakula.com/talk/c0c0n-2018/</link>
+      <pubDate>Wed, 17 Oct 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://madhuakula.com/talk/c0c0n-2018/</guid>
+      <description>Refer to https://is-ra.org/c0c0n/2018/workshop/pre-conference-workshop/</description>
+    </item>
     
     <item>
       <title>Container Security Monitoring using Open Source</title>

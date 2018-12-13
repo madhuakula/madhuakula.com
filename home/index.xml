@@ -6,7 +6,7 @@
     <description>Recent content in Homes on Madhu Akula</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Madhu Akula</copyright>
+    <copyright>&amp;copy; 2018 Madhu Akula</copyright>
     
 	<atom:link href="https://madhuakula.com/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -26,7 +26,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://madhuakula.com/home/about/</guid>
-      <description>Madhu is a security ninja, security and devops researcher with extensive experience in the industry ranging from client facing assignments building scalable and secure infrastructure, to publishing industry leading research to running training sessions for companies and governments alike.
+      <description>Madhu Akula is a security ninja, security and devops researcher with extensive experience in the industry ranging from client facing assignments building scalable and secure infrastructure, to publishing industry leading research to running training sessions for companies and governments alike.
 Madhu’s frequently speaks and runs technical sessions at security events and conferences around the world including Defcon (26, 24), Blackhat USA 2018, USENIX LISA 2018, Appsec EU 2018, All Day DevOps (2018, 2017, 2016), DevSecCon (London, Singapore, Boston), DevOpsDays India, c0c0n(2018, 2017), Serverless Summit ToorCon, DefCamp, SkydogCon, NolaCon and null, etc.</description>
     </item>
     
@@ -55,7 +55,7 @@ Madhu’s frequently speaks and runs technical sessions at security events and c
       
       <guid>https://madhuakula.com/home/training/</guid>
       <description>I deliver trainings on following courses
- Secure DevOps Cloud Security Container Security Automated Defence for AWS, Azure and GCP Web Application Security Testing  </description>
+ Automated Defence for AWS, Azure and GCP Container Security Modern Security Operations aka Secure DevOps Cloud Security for AWS, Azure and GCP Web Application Security Testing  </description>
     </item>
     
     <item>
