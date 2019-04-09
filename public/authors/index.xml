@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Madhu Akula</title>
+    <link>/authors/</link>
+    <description>Recent content in Authors on Madhu Akula</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Madhu Akula</copyright>
+    
+	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>madhuakula</title>
+      <link>/authors/madhuakula/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0530</pubDate>
+      
+      <guid>/authors/madhuakula/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks on Madhu Akula</title>
+    <link>/talk/</link>
+    <description>Recent content in Recent &amp; Upcoming Talks on Madhu Akula</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Madhu Akula</copyright>
+    <lastBuildDate>Mon, 08 Apr 2019 22:00:04 +0530</lastBuildDate>
+    
+	<atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AUTOMATED DEFENSE USING CLOUD SERVICES FOR AWS, AZURE AND GCP</title>
+      <link>/talk/blackhat-usa-2019/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/blackhat-usa-2019/</guid>
+      <description>During the training, you will be able to orchestrate and see the automated response work for the following scenarios.
+Scenarios
+ SSH Brute-force attacks detection &amp;amp; automated defense Popular CMS attack detection and automated analysis for further audit Parsing VPC flow logs to defend against network attacks in AWS cloud services AWS IAM CloudTrail logs to detect and defend against backdoors planted by attackers Container logs to detect and offer automated response in real time for attacks against Kubernetes clusters in GCP Automated Security Compliance using cloud native tools such as AWS Config and open source tool such as Cloud Custodian  Key Take Aways</description>
+    </item>
+    
+    <item>
+      <title>Attacking and Auditing Docker Containers and Kubernetes Clusters</title>
+      <link>/talk/nullcon-blr-2019/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/nullcon-blr-2019/</guid>
+      <description>Course outline
+ Student training lab setup Docker Quick Start  Getting started with Docker Docker run Dockerfile Docker Management  Docker Advanced Concepts  Docker-compose Docker volumes and networks Docker swarm Portainer  Namespaces Capabilities Control Groups Scenarios  Exploiting docker misconfiguration Attacking Docker Images and Containers Auditing Docker Images and Containers Attacking Private Registry Attacking Docker Volumes and Networks Auditing Docker Volumes and Networks Attacking Container Capabilities Exploiting docker swarm cluster secrets  Docker Integrity Checks Container introspection tool - amicontained Auditing docker container runtime Auditing docker container registries LSM - Apparmor Nginx Profile Docker Bench Security Audit Container Logging and Monitoring  Docker Logging Docker Events  Kubernetes Cluster environments setup Kubernetes 101  Getting started with Kubernetes Introduction to Kubernetes Overview &amp;amp; Technical Terms kubectl usage for pentesters  Deploying simple application in Kubernetes cluster  Using YAML manifest Using helm chart  Scenarios  Exploiting Private Registry via Misconfiguration Attacking Kubernetes Cluster Metadata using SSRF vulnerability Testing for the sensitive configurations and secrets in Kubernetes cluster Docker escape using Pod Volume Mounts to access the nodes and host systems Attacking applications in different namespaces in Kubernetes cluster Attacking Helm tiller with default RBAC setup  Auditing Kubernetes  kube-bench kubesec.</description>
+    </item>
+    
+    <item>
+      <title>AUTOMATED DEFENCE USING CLOUD SERVICES FOR AWS, AZURE &amp; GCP</title>
+      <link>/talk/sacon-2019/</link>
+      <pubDate>Thu, 07 Feb 2019 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/sacon-2019/</guid>
+      <description>Scenarios
+Some of the real-world scenarios we will be covering during the workshop includes
+ SSH Brute-force detection &amp;amp; defence Content Management System Audit analysis (Azure) AWS IAM CloudTrail logs to detect and defend against backdoors (AWS) Container logs to defend Kubernetes security attacks(GCP)  High Level Overview
+ Environment setup using automated playbook Cloud providers accounts configuration Setting up hardened Elastic Stack using Ansible playbooks and Terraform Configuring cloud infrastructure to send logs to centralized monitoring system Attack patterns analysis and detection Building attack monitoring dashboards Setting up near real-time alerts (slack, email, etc.</description>
+    </item>
+    
+    <item>
+      <title>Container Security Monitoring using Open Source</title>
+      <link>/talk/e2enetworks-webinar-2018/</link>
+      <pubDate>Mon, 10 Dec 2018 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/e2enetworks-webinar-2018/</guid>
+      <description>Learn On
+ How to secure the container pipeline &amp;amp; the application How to secure the container deployment &amp;amp; infrastructure How to properly set the enterprise security tools or enhance the existing policies  Who Should Attend
+If you&amp;rsquo;re handling containers/container-based applications, or just beginning exploring containers, you&amp;rsquo;ll want to attend to understand the security models of containers. Containers have fundamentally changed to varying degrees &amp;amp; the webinar is highly recommended for IT and System Administrators, DevOps and Security Teams.</description>
+    </item>
+    
+    <item>
+      <title>ATTACKING &amp; AUDITING DOCKER CONTAINERS</title>
+      <link>/talk/devseccon-london-2018/</link>
+      <pubDate>Fri, 19 Oct 2018 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/devseccon-london-2018/</guid>
+      <description>Blog Post https://www.linkedin.com/pulse/attacking-auditing-docker-containers-workshop-devseccon-madhu-akula/</description>
+    </item>
+    
+    <item>
+      <title>Continuous security monitoring in CI and CD pipelines</title>
+      <link>/talk/iwomm-meetup-2018/</link>
+      <pubDate>Thu, 18 Oct 2018 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/iwomm-meetup-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ATTACKING &amp; AUDITING DOCKER CONTAINERS</title>
+      <link>/talk/c0c0n-2018/</link>
+      <pubDate>Wed, 17 Oct 2018 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/c0c0n-2018/</guid>
+      <description>Refer to https://is-ra.org/c0c0n/2018/workshop/pre-conference-workshop/</description>
+    </item>
+    
+    <item>
+      <title>Container Security Monitoring using Open Source</title>
+      <link>/talk/alldaydevops-2018/</link>
+      <pubDate>Tue, 28 Aug 2018 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/alldaydevops-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Attacking &amp; Auditing Docker Containers Using Open Source</title>
+      <link>/talk/defcon-26/</link>
+      <pubDate>Fri, 10 Aug 2018 10:00:00 +0530</pubDate>
+      
+      <guid>/talk/defcon-26/</guid>
+      <description>Prerequisites  Basic familiarity with Linux and Docker  Materials  A laptop with administrator privileges 10 GB of free Hard Disk Space Ideally 8 GB of RAM but minimum 4 GB Laptop should support hardware-based virtualization  If your laptop can run a 64-bit virtual machine in Oracle VirtualBox it should work Other virtualisation software might work but we will not be able to provide support for that.   Max students 33</description>
+    </item>
+    
+    <item>
+      <title>Attacking &amp; Auditing Docker Containers</title>
+      <link>/talk/usenix-lisa-2018/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/usenix-lisa-2018/</guid>
+      <description>Who should attend:  Penetration Testers Security Engineers/Analysts IT and System Administrators DevOps and Security Teams  Take back to work:  A Gitbook(pdf, epub, mobi) with complete workshop content Virtual machines to learn &amp;amp; practice Other references to learn more about topics covered in the workshop  Topics include: Docker, Containers, Security, Audit, DevSecOps, SecOps
+Prerequisites:  Able to run linux cli commands Basics of system administration Understanding about virutalisation would be useful A laptop with administrator privileges 10 GB of free Hard Disk Space Ideally 8 GB of RAM but minimum 4 GB Laptop should support hardware-based virtualization  If your laptop can run a 64-bit virtual machine in Oracle VirtualBox it should work Other virtualisation software might work but we will not be able to provide support for that.</description>
+    </item>
+    
+    <item>
+      <title>Attacking &amp; Auditing Docker Containers Using Open Source</title>
+      <link>/talk/owasp-bay-area-2018/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/owasp-bay-area-2018/</guid>
+      <description> Prerequisites  Basic familiarity with Linux and Docker  Materials  A laptop with administrator privileges 10 GB of free Hard Disk Space Ideally 8 GB of RAM but minimum 4 GB Laptop should support hardware-based virtualization  If your laptop can run a 64-bit virtual machine in Oracle VirtualBox it should work Other virtualisation software might work but we will not be able to provide support for that.   </description>
+    </item>
+    
+    <item>
+      <title>Building visualisation platforms for OSINT data using open source solutions</title>
+      <link>/talk/recon-village-2018/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/recon-village-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AUTOMATED DEFENSE USING SERVERLESS FOR AWS, AZURE AND GCP</title>
+      <link>/talk/appsec-eu-2018/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/appsec-eu-2018/</guid>
+      <description>Scenarios
+ SSH Bruteforce detection &amp;amp; defense Content Management System Audit analysis VPC flow logs to defend cloud services (AWS) IAM CloudTrail logs to detect and defend against backdoors (AWS) Container logs to audit Kubernetes security Cloud Custodian for automated compliance  Participants will get
+ Customised VM with all the required tools installed Step by Step Gitbook covering the entire training (html, pdf, epub, mobi) Custom Ansible Playbooks, Terraform scripts, etc.</description>
+    </item>
+    
+    <item>
+      <title>Hands-On Introduction to Modern Application Security</title>
+      <link>/talk/devhost-18/</link>
+      <pubDate>Fri, 04 May 2018 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/devhost-18/</guid>
+      <description> Twitter I&amp;#39;ll be doing a Hands-On introduction to Application Security session at devhost:18 Students Developers Meet 2018. Excited to teach students about security after a long time :)#OWASP #AppSec #Security #Meetup pic.twitter.com/cPaIpMVmaA
+&amp;mdash; Madhu Akula (@madhuakula) May 4, 2018  </description>
+    </item>
+    
+    <item>
+      <title>AUTOMATED DEFENSE USING CLOUD SERVICES FOR AWS, AZURE AND GCP</title>
+      <link>/talk/blackhat-usa-2018/</link>
+      <pubDate>Wed, 07 Feb 2018 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/blackhat-usa-2018/</guid>
+      <description>Scenarios
+ SSH Bruteforce detection &amp;amp; defense Content Management System Audit analysis VPC flow logs to defend cloud services (AWS) IAM CloudTrail logs to detect and defend against backdoors (AWS) Container logs to audit Kubernetes security Cloud Custodian for automated compliance  Participants will get
+ Step by Step Gitbook covering the entire training (html, pdf, epub, mobi) Custom Ansible Playbooks Automated Defence Solution for AWS, Azure, GCP  Some of the topics and techniques covered will include (at a minimum):</description>
+    </item>
+    
+    <item>
+      <title>Automated Defence for Cloud Security in AWS using Serverless</title>
+      <link>/talk/inserverless-2017/</link>
+      <pubDate>Fri, 27 Oct 2017 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/inserverless-2017/</guid>
+      <description> Blog Post My experience, learning, feedback about recent @inserverless conference https://t.co/qs8uLIxiR4#inserverless #Serverless
+&amp;mdash; Madhu Akula (@madhuakula) November 6, 2017  </description>
+    </item>
+    
+    <item>
+      <title>Modern Security Operations aka Secure DevOps</title>
+      <link>/talk/alldaydevops-2017/</link>
+      <pubDate>Tue, 24 Oct 2017 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/alldaydevops-2017/</guid>
+      <description> Slides Slides from my talk at @AllDayDevOps about Modern Security Operations aka Secure DevOpshttps://t.co/ZiPWQyNCNT#DevSecOps #AllDayDevOps
+&amp;mdash; Madhu Akula (@madhuakula) October 25, 2017  </description>
+    </item>
+    
+    <item>
+      <title>Real World Security monitoring &amp; Automated Defence for almost free</title>
+      <link>/talk/devseccon-london-2017/</link>
+      <pubDate>Fri, 20 Oct 2017 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/devseccon-london-2017/</guid>
+      <description> Blog Post We can&amp;#39;t wait for this workshop by @madhuakula @appseccouk at #DevSecCon London this week! https://t.co/cKWUlGtaTK
+&amp;mdash; DevSecCon (@devseccon) October 18, 2017  </description>
+    </item>
+    
+    <item>
+      <title>Real World Security monitoring &amp; Automated Defence for almost free</title>
+      <link>/talk/devseccon-boston-2017/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/devseccon-boston-2017/</guid>
+      <description> Blog Post Real World Security Monitoring &amp;amp; Automated Defence workshop at @devseccon Boston by @appseccouk https://t.co/DJQ06LZoZS
+&amp;mdash; Madhu Akula (@madhuakula) September 8, 2017  </description>
+    </item>
+    
+    <item>
+      <title>Monitoring &amp; Defending Infrastructure Security Attacks</title>
+      <link>/talk/c0c0n-2017/</link>
+      <pubDate>Thu, 17 Aug 2017 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/c0c0n-2017/</guid>
+      <description> Workshop Highlights Cool dashboards for new version of #Monitoring &amp;amp; Defending #Infrastructure #Security #Attacks #workshop at @_c0c0n_ https://t.co/dIRA7VfazQ pic.twitter.com/G40cu9DfT1
+&amp;mdash; Madhu Akula (@madhuakula) August 13, 2017  </description>
+    </item>
+    
+    <item>
+      <title>DevOps principles to build your lean startup</title>
+      <link>/talk/startup-leadership-program-webinar-2017/</link>
+      <pubDate>Tue, 27 Jun 2017 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/startup-leadership-program-webinar-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Server Hardening and Security Monitoring</title>
+      <link>/talk/wowlabz-guest-talk/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/wowlabz-guest-talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Introduction to Containers using Docker and using it for Security Automation</title>
+      <link>/talk/null-bangalore-puliya-jun-2017/</link>
+      <pubDate>Sat, 03 Jun 2017 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/null-bangalore-puliya-jun-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developers guide to security &amp; operations: Introducing DevSecOps</title>
+      <link>/talk/software-security-bangalore-meetup-2017/</link>
+      <pubDate>Thu, 18 May 2017 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/software-security-bangalore-meetup-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud Security for Everyone</title>
+      <link>/talk/sdn-iot-enthusiasts-meetup-2017/</link>
+      <pubDate>Sat, 29 Apr 2017 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/sdn-iot-enthusiasts-meetup-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux Security Internals</title>
+      <link>/talk/null-bangalore-puliya-apr-2017/</link>
+      <pubDate>Sat, 22 Apr 2017 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/null-bangalore-puliya-apr-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated infrastructure security monitoring and defence</title>
+      <link>/talk/devseccon-singapore-2017/</link>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/devseccon-singapore-2017/</guid>
+      <description> Tweets Find out how to monitor for application attacks and defend them in real-time, in our workshop at #DevSecCon Asia https://t.co/Zj696Y9NDE pic.twitter.com/CBxT1sjV8k
+&amp;mdash; DevSecCon (@devseccon) February 13, 2017  </description>
+    </item>
+    
+    <item>
+      <title>Automating Documentation, Presentation, Knowledge base using Markdown (Zero to Hero)</title>
+      <link>/talk/null-bangalore-puliya-feb-2017/</link>
+      <pubDate>Sat, 11 Feb 2017 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/null-bangalore-puliya-feb-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated Infrastructure Security Monitoring &amp; Defence</title>
+      <link>/talk/null-bangalore-bachaav-dec-2016/</link>
+      <pubDate>Sat, 10 Dec 2016 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/null-bangalore-bachaav-dec-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated Infrastructure Security Monitoring using FOSS</title>
+      <link>/talk/alldaydevops-2016/</link>
+      <pubDate>Tue, 15 Nov 2016 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/alldaydevops-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Infrastructure Security Monitoring</title>
+      <link>/talk/devops-days-2016/</link>
+      <pubDate>Fri, 04 Nov 2016 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/devops-days-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ninja level infrastructure monitoring</title>
+      <link>/talk/devseccon-london-2016/</link>
+      <pubDate>Thu, 20 Oct 2016 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/devseccon-london-2016/</guid>
+      <description> Tweets Attend a two-hour workshop about Ninja level Infrastructure Monitoring at #DevSecCon next week https://t.co/jHv1FprqDf pic.twitter.com/XPLNj5mg6p
+&amp;mdash; DevSecCon (@devseccon) October 12, 2016  Me and @makash doing Infrastructure Monitoring Workshop tomorrow at #devseccon https://t.co/Yx6Ow03GOg
+cc:@devseccon @appseccouk #DevSecOps
+&amp;mdash; Madhu Akula (@madhuakula) October 19, 2016  </description>
+    </item>
+    
+    <item>
+      <title>Ninja level Infrastructure Monitoring : Defensive approach to Security Monitoring &amp; Automation</title>
+      <link>/talk/defcon-24/</link>
+      <pubDate>Sat, 06 Aug 2016 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/defcon-24/</guid>
+      <description> Blog Post “All set for our Ninja Level Infrastructure Monitoring workshop @Defcon 24” https://t.co/JQ9vMglQ39
+cc: @riyazwalikar @appseccouk
+&amp;mdash; Madhu Akula (@madhuakula) August 2, 2016  </description>
+    </item>
+    
+  </channel>
+</rss>

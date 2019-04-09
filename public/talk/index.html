@@ -1,0 +1,3955 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.1.0">
+  <meta name="generator" content="Hugo 0.54.0" />
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Madhu Akula">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Madhu Akula, Cloud Native Security, Cloud Native Infrastructure, Container Security, Cloud Security, Security Automation, Web Application Security, Network Security, DevOps, SecOps, DevSecOps, Pentesting, Security Research">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/talk/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-15752161-2', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+  <link rel="alternate" href="/talk/index.xml" type="application/rss+xml" title="Madhu Akula">
+  <link rel="feed" href="/talk/index.xml" type="application/rss+xml" title="Madhu Akula">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/talk/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@madhuakula">
+  <meta property="twitter:creator" content="@madhuakula">
+  
+  <meta property="og:site_name" content="Madhu Akula">
+  <meta property="og:url" content="/talk/">
+  <meta property="og:title" content="Recent &amp; Upcoming Talks | Madhu Akula">
+  <meta property="og:description" content="Madhu Akula, Cloud Native Security, Cloud Native Infrastructure, Container Security, Cloud Security, Security Automation, Web Application Security, Network Security, DevOps, SecOps, DevSecOps, Pentesting, Security Research"><meta property="og:image" content="/img/madhuakula.jpg">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="og:updated_time" content="2019-04-08T22:00:04&#43;05:30">
+  
+
+  
+
+  
+
+  <title>Recent &amp; Upcoming Talks | Madhu Akula</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Madhu Akula</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#experience">
+            
+            <span>Experience</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#talks">
+            
+            <span>Talks</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://medium.com/@madhuakula" target="_blank" rel="noopener">
+            
+            <span>Blog</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+<div class="universal-wrapper pt-3">
+  <h1 itemprop="name">Recent &amp; Upcoming Talks</h1>
+
+  
+
+  
+</div>
+
+
+
+<div class="universal-wrapper">
+  <div class="row">
+    <div class="col-lg-12">
+
+      
+
+      
+      <div class="row" id="talk_list">
+        <div class="col-lg-2">
+          <h3>2019</h3>
+        </div>
+        <div class="col-lg-10">
+
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/nullcon-blr-2019/" itemprop="url">Attacking and Auditing Docker Containers and Kubernetes Clusters</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>This 3 day attack-focused, hands-on training will set you on the path to using common attack techniques against docker, kubernetes, …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Apr 8, 2019
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Royal Orchid Hotels, Bangalore</span>
+        
+      </div>
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      
+        <a href="/authors/madhuakula/">Madhu Akula</a></span></span>
+  
+
+
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/blackhat-usa-2019/" itemprop="url">AUTOMATED DEFENSE USING CLOUD SERVICES FOR AWS, AZURE AND GCP</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>Monitoring for attacks and defending against them in real-time is crucial. The mean time to detect (MTTD) has become an important …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Apr 8, 2019
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Mandalay Bay, Las Vegas, USA</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/sacon-2019/" itemprop="url">AUTOMATED DEFENCE USING CLOUD SERVICES FOR AWS, AZURE &amp; GCP</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      Monitoring for attacks and defending against them in real-time is crucial. Defending our cloud infrastructure during attacks can prove …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Feb 7, 2019
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Taj Yeshwantpur, Bengaluru</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+
+        </div>
+      </div>
+      
+      <div class="row" id="talk_list">
+        <div class="col-lg-2">
+          <h3>2018</h3>
+        </div>
+        <div class="col-lg-10">
+
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/e2enetworks-webinar-2018/" itemprop="url">Container Security Monitoring using Open Source</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>While developers, operators and enterprises are adopting containers, security is still considered as one of the prime challenges in …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Dec 10, 2018
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Live, Online</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/devseccon-london-2018/" itemprop="url">ATTACKING &amp; AUDITING DOCKER CONTAINERS</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>Developers and Operations teams (DevOps) have moved towards containers and modern technologies. Attackers are catching up with these …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Oct 19, 2018
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">London, UK</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/iwomm-meetup-2018/" itemprop="url">Continuous security monitoring in CI and CD pipelines</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      Developers and Operations teams (DevOps) have moved towards containers and modern technologies. Monitoring and defending against …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Oct 18, 2018
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">WeWork 41 Corsham, St 41 Corsham Street, London</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/c0c0n-2018/" itemprop="url">ATTACKING &amp; AUDITING DOCKER CONTAINERS</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>Developers and Operations teams (DevOps) have moved towards containers and modern technologies. Attackers are catching up with these …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Oct 17, 2018
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Kochi, India</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/alldaydevops-2018/" itemprop="url">Container Security Monitoring using Open Source</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>Developers and Operations teams (DevOps) have moved towards containers and modern technologies. Monitoring and defending against …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Aug 28, 2018
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Live, Online</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/defcon-26/" itemprop="url">Attacking &amp; Auditing Docker Containers Using Open Source</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>Developers and Operations teams (DevOps) have moved towards containers and modern technologies. Attackers are catching up with these …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Aug 10, 2018
+          
+            10:00 AM
+            
+            &mdash; 2:00 PM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Caesars Palace and Flamingo Hotels, Las Vegas, USA</span>
+        
+      </div>
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      
+        <a href="/authors/madhuakula/">Madhu Akula</a></span></span>
+  
+
+
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/recon-village-2018/" itemprop="url">Building visualisation platforms for OSINT data using open source solutions</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>Reconnaissance is about gathering information. The information gathered is only as good as the insights and actionable decisions that …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Jul 11, 2018
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Las Vegas, USA</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/owasp-bay-area-2018/" itemprop="url">Attacking &amp; Auditing Docker Containers Using Open Source</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>Developers and Operations teams (DevOps) have moved towards containers and modern technologies. Attackers are catching up with these …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Jul 11, 2018
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Upgrade, 275 Battery Street, 23rd Floor, San Francisco, ca</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=ru7GicI5iyI" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/usenix-lisa-2018/" itemprop="url">Attacking &amp; Auditing Docker Containers</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>Developers and Operations teams (DevOps) have moved towards containers and modern technologies. Attackers are catching up with these …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Jul 11, 2018
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Nashville, TN, USA</span>
+        
+      </div>
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      
+        <a href="/authors/madhuakula/">Madhu Akula</a></span></span>
+  
+
+
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/appsec-eu-2018/" itemprop="url">AUTOMATED DEFENSE USING SERVERLESS FOR AWS, AZURE AND GCP</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>Monitoring for attacks and defending against them in real-time is crucial. Defending our cloud infrastructure during attacks can prove …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          May 25, 2018
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">London, England</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/devhost-18/" itemprop="url">Hands-On Introduction to Modern Application Security</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          May 4, 2018
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Bangalore, India</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/blackhat-usa-2018/" itemprop="url">AUTOMATED DEFENSE USING CLOUD SERVICES FOR AWS, AZURE AND GCP</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>Monitoring for attacks and defending against them in real-time is crucial. Defending our cloud infrastructure during attacks can prove …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Feb 7, 2018
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Mandalay Bay, Las Vegas, USA</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+
+        </div>
+      </div>
+      
+      <div class="row" id="talk_list">
+        <div class="col-lg-2">
+          <h3>2017</h3>
+        </div>
+        <div class="col-lg-10">
+
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/inserverless-2017/" itemprop="url">Automated Defence for Cloud Security in AWS using Serverless</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      Monitoring for attacks and defending them in real-time is crucial. Making the right choices during attacks can prove to be a nightmare …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Oct 27, 2017
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Bangalore, India</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/alldaydevops-2017/" itemprop="url">Modern Security Operations aka Secure DevOps</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>We will discuss the what, why and the how of running modern security operations. We will take a look at the pain points in a DevOps …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Oct 24, 2017
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Live, Online</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/devseccon-london-2017/" itemprop="url">Real World Security monitoring &amp; Automated Defence for almost free</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>Monitoring for attacks and defending them in real-time is crucial. Crunch through all the logs from the various sources (servers, …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Oct 20, 2017
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">London, UK</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/devseccon-boston-2017/" itemprop="url">Real World Security monitoring &amp; Automated Defence for almost free</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>Monitoring for attacks and defending them in real-time is crucial. Crunch through all the logs from the various sources (servers, …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Sep 20, 2017
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Boston, USA</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/c0c0n-2017/" itemprop="url">Monitoring &amp; Defending Infrastructure Security Attacks</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>Monitoring for attacks and defending them in real-time is crucial. Crunch through all the logs from the various sources (servers, …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Aug 17, 2017
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Kochi, India</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/startup-leadership-program-webinar-2017/" itemprop="url">DevOps principles to build your lean startup</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      DevOps is one of the new buzzwords that describes how the IT world moves towards combining increased skills, automation, tools and …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Jun 27, 2017
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Online, Global</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://speakerdeck.com/madhuakula/devops-principles-to-build-your-lean-startup" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=s0xU2OS8NBo" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/wowlabz-guest-talk/" itemprop="url">Server Hardening and Security Monitoring</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <ul>
+<li>Common security misconfigurations</li>
+<li>Solutions and methods to secure deployments</li>
+</ul>
+
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Jun 22, 2017
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Bangalore, India</span>
+        
+      </div>
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      
+        <a href="/authors/madhuakula/">Madhu Akula</a></span></span>
+  
+
+
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/null-bangalore-puliya-jun-2017/" itemprop="url">An Introduction to Containers using Docker and using it for Security Automation</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>I think most you have heard of the term &ldquo;containers&rdquo;. In this puliya session we will learn what, where and how to use …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Jun 3, 2017
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Bangalore, India</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/software-security-bangalore-meetup-2017/" itemprop="url">Developers guide to security &amp; operations: Introducing DevSecOps</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      Security starts from planning to deployment, maintenance of applications live in production environments. The buzzword …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          May 18, 2017
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Bangalore, India</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://speakerdeck.com/madhuakula/developer-guide-to-security-and-operations-introducing-devsecops" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=8kpykPmXwWk" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/sdn-iot-enthusiasts-meetup-2017/" itemprop="url">Cloud Security for Everyone</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      Cloud is everywhere now and security is one of the primary goal for organisations to stop attackers. This presentation will explore …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Apr 29, 2017
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Bangalore, India</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://speakerdeck.com/madhuakula/cloud-security-for-everyone" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/null-bangalore-puliya-apr-2017/" itemprop="url">Linux Security Internals</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>In this talk we will discuss the various security features of the Linux kernel. The talk is split into the following modules with demos …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Apr 22, 2017
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Bangalore, India</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/makash/linux-container-security-docs" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/devseccon-singapore-2017/" itemprop="url">Automated infrastructure security monitoring and defence</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>Monitoring for application attacks and defending them in real-time is crucial. Crunch through all the logs from the various sources …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Feb 23, 2017
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Fairmont Hotel, Raffles City Convention Centre, Singapore</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/null-bangalore-puliya-feb-2017/" itemprop="url">Automating Documentation, Presentation, Knowledge base using Markdown (Zero to Hero)</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>Most of us are excellent at doing things, but when it comes to documentation it&rsquo;s one of the boring tasks ever in life. This …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Feb 11, 2017
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Bangalore, India</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/madhuakula/null-puliya-markdown-automation" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+
+        </div>
+      </div>
+      
+      <div class="row" id="talk_list">
+        <div class="col-lg-2">
+          <h3>2016</h3>
+        </div>
+        <div class="col-lg-10">
+
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/null-bangalore-bachaav-dec-2016/" itemprop="url">Automated Infrastructure Security Monitoring &amp; Defence</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>We can see attacks happening in real time using a dashboard. By collecting logs from various sources we will monitor &amp; analyse. …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Dec 10, 2016
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Bangalore, India</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/appsecco/nullblr-bachaav-aismd" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/alldaydevops-2016/" itemprop="url">Automated Infrastructure Security Monitoring using FOSS</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      For most network engineers who monitor the perimeter for malicious content, having to crunch through all the logs that the various …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Nov 15, 2016
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Live, Online</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/appsecco/alldaydevops-aism" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://speakerdeck.com/madhuakula/all-day-devops-automated-infrastructure-security-monitoring-and-defence-elk-plus-aws-lambda" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=3_HIlDm3GtM" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/devops-days-2016/" itemprop="url">Infrastructure Security Monitoring</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>For most network engineers who monitor the perimeter for malicious content, it is very important to respond to an imminent threat …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Nov 4, 2016
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Bangalore, India</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=RmfoDR_4Dcg" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/devseccon-london-2016/" itemprop="url">Ninja level infrastructure monitoring</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      For most network engineers who monitor the perimeter for malicious content, it is very important to respond to an imminent threat …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Oct 20, 2016
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Paris and Bally’s casinos and convention centres, Las Vegas, USA</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/defcon-24/" itemprop="url">Ninja level Infrastructure Monitoring : Defensive approach to Security Monitoring &amp; Automation</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>For most network engineers who monitor the perimeter for malicious content, it is very important to respond to an imminent threat …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Aug 6, 2016
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Paris and Bally’s casinos and convention centres, Las Vegas, USA</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/appsecco/defcon24-infra-monitoring-workshop" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+
+        </div>
+      </div>
+      
+
+    </div>
+  </div>
+
+</div>
+<div class="container">
+  <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; Madhu Akula &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.d7381f2d79e6271d4da28f474f49096c.js"></script>
+
+  </body>
+</html>
+

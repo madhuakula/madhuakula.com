@@ -1,0 +1,2788 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.1.0">
+  <meta name="generator" content="Hugo 0.54.0" />
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Madhu Akula">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Madhu Akula, Cloud Native Security, Cloud Native Infrastructure, Container Security, Cloud Security, Security Automation, Web Application Security, Network Security, DevOps, SecOps, DevSecOps, Pentesting, Security Research">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-15752161-2', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Madhu Akula">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Madhu Akula">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@madhuakula">
+  <meta property="twitter:creator" content="@madhuakula">
+  
+  <meta property="og:site_name" content="Madhu Akula">
+  <meta property="og:url" content="/">
+  <meta property="og:title" content="Madhu Akula">
+  <meta property="og:description" content="Madhu Akula, Cloud Native Security, Cloud Native Infrastructure, Container Security, Cloud Security, Security Automation, Web Application Security, Network Security, DevOps, SecOps, DevSecOps, Pentesting, Security Research"><meta property="og:image" content="/img/madhuakula.jpg">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="og:updated_time" content="2017-07-26T00:00:00&#43;05:30">
+  
+
+  
+
+  
+
+  <title>Madhu Akula</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Madhu Akula</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about" data-target="#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#experience" data-target="#experience">
+            
+            <span>Experience</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#publications" data-target="#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#talks" data-target="#talks">
+            
+            <span>Talks</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#projects" data-target="#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://medium.com/@madhuakula" data-target="https://medium.com/@madhuakula" target="_blank" rel="noopener">
+            
+            <span>Blog</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact" data-target="#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+
+<span id="homepage" class="d-none"></span>
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  <section id="about" class="home-section wg-about   " >
+    <div class="container">
+      
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
+      
+      
+      <img class="portrait" src="/author/madhuakula/avatar_hu155d579be37a4b43b149ba91be9cfba7_145018_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
+      
+
+      <div class="portrait-title">
+        <h2 itemprop="name">Madhu Akula</h2>
+        <h3 itemprop="jobTitle">Never Ending Learner!</h3>
+
+        
+        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+          <a href="https://appsecco.com" target="_blank" itemprop="url" rel="noopener">
+          <span itemprop="name">Security Stuff @ Appsecco</span>
+          </a>
+        </h3>
+        
+      </div>
+
+      <link itemprop="url" href="">
+
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="/#contact" >
+            <i class="fas fa-envelope big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="https://twitter.com/madhuakula" target="_blank" rel="noopener">
+            <i class="fab fa-twitter big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="https://linkedin.com/in/madhuakula" target="_blank" rel="noopener">
+            <i class="fab fa-linkedin big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="https://github.com/madhuakula" target="_blank" rel="noopener">
+            <i class="fab fa-github big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="https://medium.com/@madhuakula" target="_blank" rel="noopener">
+            <i class="fas fa-blog big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8" itemprop="description">
+
+    
+    
+
+    <p><strong><em>Madhu Akula</em></strong> is a security ninja, published author and cloud native researcher with an extensive experience. Also he is an active member of the international security, devops and cloud native communities.</p>
+
+<p>Madhu frequently speaks and runs training sessions at security events and conferences around the world including DEFCON (26, 24), BlackHat USA (2018, 2019), USENIX LISA 2018, Appsec EU 2018, All Day DevOps (2016, 2017, 2018), DevSecCon (London, Singapore, Boston), DevOpsDays India, c0c0n(2018, 2017), Nullcon 2019, SACON 2019, Serverless Summit, null and multiple others.</p>
+
+<p>His research has identified vulnerabilities in over 200 companies and organisations including; Google, Microsoft, LinkedIn, eBay, AT&amp;T, WordPress, NTOP and Adobe, etc. He is co-author of <em><a href="https://www.secautomationbook.com" target="_blank">Security Automation with Ansible2 (ISBN-13: 978-1788394512)</a></em>, which is listed as a technical resource by <a href="https://www.ansible.com/resources/ebooks/security-automation-with-ansible-2" target="_blank">Red Hat Ansible</a>.</p>
+
+
+    <div class="row">
+
+      
+      <div class="col-md-5">
+        <h3>Interests</h3>
+        <ul class="ul-interests">
+          
+          <li>Cloud Native Infrastructure</li>
+          
+          <li>Cloud &amp; Container Security</li>
+          
+          <li>DevOps &amp; DevSecOps</li>
+          
+          <li>Building &amp; Breaking stuff</li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <div class="col-md-7">
+        <h3>Education</h3>
+        <ul class="ul-edu fa-ul">
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Information Technology, 2013</p>
+              <p class="institution">ANITS, Andhra University</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Electronics &amp; Communication, 2010</p>
+              <p class="institution">SVKP Polytechnic College</p>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  <section id="experience" class="home-section wg-experience   " >
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Experience</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+    
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border exp-fill">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Security Automation Engineer</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://appsecco.com" target="_blank" rel="noopener">Appsecco</a></h4>
+            <div class="text-muted exp-meta">
+              Aug 2018 –
+              
+                Present
+              
+              
+                <span class="middot-divider"></span>
+                <span>Bangalore, India</span>
+              
+            </div>
+            <div class="card-text"><p>Appsecco is a specialist application security company that ‘gets’ web security and can advise you on the best route for your business.</p>
+
+<p>We provide simple solutions to problems and don’t confuse our clients with technicalities.</p>
+
+<p>Every team member shares a passion for providing the best possible security solutions that meet the commercial needs and challenges of the clients and organisations we work for.</p>
+
+<p>No matter where they are based they bring the same strategic and pragmatic thinking to ensure that security, operations and commercial goals are aligned to bring you the best possible results.</p>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Automation Ninja</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://appsecco.com" target="_blank" rel="noopener">Appsecco</a></h4>
+            <div class="text-muted exp-meta">
+              May 2016 –
+              
+                Jul 2018
+              
+              
+                <span class="middot-divider"></span>
+                <span>Bangalore, India</span>
+              
+            </div>
+            <div class="card-text"><p>Appsecco is a specialist application security company that ‘gets’ web security and can advise you on the best route for your business.</p>
+
+<p>We provide simple solutions to problems and don’t confuse our clients with technicalities.</p>
+
+<p>Every team member shares a passion for providing the best possible security solutions that meet the commercial needs and challenges of the clients and organisations we work for.</p>
+
+<p>No matter where they are based they bring the same strategic and pragmatic thinking to ensure that security, operations and commercial goals are aligned to bring you the best possible results.</p>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Security Engineer II</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://www.walmart.com" target="_blank" rel="noopener">Walmart</a></h4>
+            <div class="text-muted exp-meta">
+              Oct 2014 –
+              
+                May 2016
+              
+              
+                <span class="middot-divider"></span>
+                <span>Bangalore, India</span>
+              
+            </div>
+            <div class="card-text"><ol>
+<li>Responsible for the global network security for Walmart eCommerce.</li>
+<li>Part of Incident Response team. Worked on Palo Alto, ASA, FWSM firewalls.</li>
+<li>Responsible for assessment of automation tools, latest trends to enhance the current security testing practices,update and enhance the standards used in organisation.</li>
+<li>Followed Agile-Scrum methodologies for deployment and development activities.</li>
+<li>Built an in house automation Attack Monitoring &amp; Proactive Analytics solution for Walmart using ELK stack.</li>
+<li>Acknowledged by CISO, VP for my contribution in improving organisation’s security posture by providing Critical￼ Vulnerabilities in applications and also for internal training among engineering teams in InfoSec.</li>
+<li>Won best organizational level awards including AOM (Associate Of the Month), Spot Award in entire InfoSec wing
+<br /></li>
+</ol>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Network Security Consultant</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://payatu.com" target="_blank" rel="noopener">Payatu</a></h4>
+            <div class="text-muted exp-meta">
+              Oct 2013 –
+              
+                Oct 2014
+              
+              
+                <span class="middot-divider"></span>
+                <span>Dharamshala, India</span>
+              
+            </div>
+            <div class="card-text"><ol>
+<li>Done Pen testing on complete Network as well as all Internal Web Applications</li>
+<li>Installed &amp; Configured Active Directory, Domain controller services and applied Group Policy Management</li>
+<li>Installed &amp; Configured Layer 2 &amp; 3 switches and Routers</li>
+<li>Installed &amp; Configured Open Source Monitoring Servers, Inventory and Ticketing Systems</li>
+<li>Installed &amp; Configured FTP, BACKUP and WEB Servers</li>
+<li>Did hardening for Windows, LINUX servers &amp; Networks</li>
+<li>Configured SIEM Server for Centralized logging and installed Security Onion for Network Packet Capture and analysis</li>
+<li>Trained staff for configuration and maintenance of servers and systems</li>
+<li>Researched on Real time Scenarios, Architectures and Tools</li>
+<li>Worked with various International clients and completed the project successfully<br />
+<br /></li>
+</ol>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Internship</h4>
+            <h4 class="card-title exp-company text-muted my-0">Saviour Info Sol Pvt.Ltd</h4>
+            <div class="text-muted exp-meta">
+              May 2012 –
+              
+                Jun 2012
+              
+              
+                <span class="middot-divider"></span>
+                <span>Hyderabad, India</span>
+              
+            </div>
+            <div class="card-text">Created a server with all security tools to monitor and analyze the network.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Information security researcher &amp; Technical trainer - Part Time</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="http://www.sourcenxt.in" target="_blank" rel="noopener">SourceNXT</a></h4>
+            <div class="text-muted exp-meta">
+              Jan 2012 –
+              
+                Sep 2013
+              
+              
+                <span class="middot-divider"></span>
+                <span>Hyderabad, India</span>
+              
+            </div>
+            <div class="card-text"><ol>
+<li>Trained more than 3000 people in the field of Information security, Ethical Hacking and Cyber Security by various workshops and talks.</li>
+<li>Done research on latest online potential threats and security tools and frameworks.</li>
+<li>Prepared course content for Networking &amp; Security Modules.<br />
+<br /></li>
+</ol>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Corporate trainer - Part Time</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="http://www.technosoftsolutions.co.in/" target="_blank" rel="noopener">Technosoft Solutions</a></h4>
+            <div class="text-muted exp-meta">
+              Jan 2012 –
+              
+                Apr 2013
+              
+              
+                <span class="middot-divider"></span>
+                <span>Visakhapatnam, India</span>
+              
+            </div>
+            <div class="card-text"><ol>
+<li>Trained INDIAN NAVY for 10 days Hands on Ethical Hacking &amp; Information Security Boot Camp</li>
+<li>Worked with various clients and done corporate training on Network Security &amp; Forensics</li>
+<li>Done Penetration Testing for Web Applications</li>
+<li>Done Hardening Networks and Servers for small organizations
+<br /></li>
+</ol>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  <section id="volunteering" class="home-section wg-experience   " >
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Volunteering</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+    
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border exp-fill">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Moderator</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://alldaydevops.com" target="_blank" rel="noopener">All Day DevOps</a></h4>
+            <div class="text-muted exp-meta">
+              Jan 2016 –
+              
+                Present
+              
+              
+                <span class="middot-divider"></span>
+                <span>Online</span>
+              
+            </div>
+            <div class="card-text">All Day DevOps is a FREE online community responsible for creating the world’s largest DevOps conference. - <a href="https://www.alldaydevops.com" target="_blank">https://www.alldaydevops.com</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border exp-fill">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Contributor</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="http://www.devsecops.org" target="_blank" rel="noopener">DevSecOps</a></h4>
+            <div class="text-muted exp-meta">
+              Jan 2016 –
+              
+                Present
+              
+              
+                <span class="middot-divider"></span>
+                <span>Online</span>
+              
+            </div>
+            <div class="card-text">Security is everyone&rsquo;s responsibility - <a href="http://www.devsecops.org" target="_blank">http://www.devsecops.org</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Chapter Lead</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://null.co.in/" target="_blank" rel="noopener">null - The Open Security Community</a></h4>
+            <div class="text-muted exp-meta">
+              Mar 2014 –
+              
+                Oct 2014
+              
+              
+                <span class="middot-divider"></span>
+                <span>Dharamshala, India</span>
+              
+            </div>
+            <div class="card-text">Kick started null Dharamshala Chapter monthly meetups and other types of meetings like null Humla and Puliya. Responsibilities include organizing monthly events, arranging venues, inviting speakers, etc.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Contributor</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://codevigilant.com/" target="_blank" rel="noopener">Code Vigilant</a></h4>
+            <div class="text-muted exp-meta">
+              Jan 2014 –
+              
+                Aug 2015
+              
+              
+                <span class="middot-divider"></span>
+                <span>Online</span>
+              
+            </div>
+            <div class="card-text"><p>Code Vigilant project is created out of the need to have a more secure open source software. It is a known fact that a large number of users use opensource software but a very few of them contribute back in terms of identifying and making these opensource software a more secure piece of software.</p>
+
+<p>This project is initiated with an aim of finding flaws in open source software and making sure that we reach one of the following conclusion.</p>
+
+<ol>
+<li>Get the vulnerability fixed and Patch issued.</li>
+<li>If author is not reachable then make sure the public information is available and spread the details that issues exist with opensource software and discourage its usage.
+<br /></li>
+</ol>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Crew Member</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://nullcon.net/" target="_blank" rel="noopener">Nullcon</a></h4>
+            <div class="text-muted exp-meta">
+              Oct 2013 –
+              
+                Oct 2014
+              
+              
+                <span class="middot-divider"></span>
+                <span>India</span>
+              
+            </div>
+            <div class="card-text"><a href="https://nullcon.net" target="_blank">https://nullcon.net</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  <section id="accomplishments" class="home-section wg-accomplishments   " >
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Accomplish&shy;ments</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+    
+      <div class="card experience course">
+        <div class="card-body"><a href="https://aws.amazon.com/training/course-descriptions/security-fundamentals/" target="_blank" rel="noopener"><h4 class="card-title exp-title text-muted my-0">AWS Security Fundamentals</h4></a><div class="card-subtitle my-0 article-metadata"><a href="https://aws.amazon.com/" target="_blank" rel="noopener">Amazon Web Services (AWS)</a><span class="middot-divider"></span>
+
+            Dec 2016
+            
+          </div>
+
+          
+
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><a href="https://www.offensive-security.com/information-security-certifications/oscp-offensive-security-certified-professional/" target="_blank" rel="noopener"><h4 class="card-title exp-title text-muted my-0">Offensive Security Certified Professional (OSCP)</h4></a><div class="card-subtitle my-0 article-metadata"><a href="https://www.offensive-security.com/" target="_blank" rel="noopener">Offensive Security</a><span class="middot-divider"></span>
+
+            Nov 2016
+            
+          </div>
+
+          
+
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Skybox Technical Security Professional</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.skyboxsecurity.com/" target="_blank" rel="noopener">Skybox Security</a><span class="middot-divider"></span>
+
+            Feb 2016
+            
+          </div>
+
+          
+
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><a href="https://inmobihackdaysummer2015.devpost.com/" target="_blank" rel="noopener"><h4 class="card-title exp-title text-muted my-0">Winner: InMobi Hack Day Summer 2015</h4></a><div class="card-subtitle my-0 article-metadata"><a href="https://www.inmobi.com/" target="_blank" rel="noopener">InMobi</a><span class="middot-divider"></span>
+
+            May 2015
+            
+          </div>
+
+          
+
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><a href="https://www.paloaltonetworks.com/services/education/certification" target="_blank" rel="noopener"><h4 class="card-title exp-title text-muted my-0">PAN ACE 6.1</h4></a><div class="card-subtitle my-0 article-metadata"><a href="https://www.paloaltonetworks.com/" target="_blank" rel="noopener">Palo Alto Networks</a><span class="middot-divider"></span>
+
+            Feb 2015
+            
+          </div>
+
+          
+
+          
+        </div>
+      </div>
+    
+    
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  <section id="publications" class="home-section wg-pages   " >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Publications</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    <p><!-- <div class="alert alert-note">
+  <div>
+    <p>Quickly discover relevant content by <a href="/publication/">filtering publications</a>.</p>
+
+  </div>
+</div>
+ -->
+</p>
+
+    
+      
+        
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
+
+  
+    
+
+
+
+<meta content="2017-07-26 00:00:00 &#43;0530 IST" itemprop="datePublished">
+<meta content="2019-04-08 22:00:04 &#43;0530 IST" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Jul 26, 2017</time>
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+  </span>
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3" itemprop="name">
+    <a href="/publication/security-vulnerabilities-advisories/" itemprop="url">Security Vulnerabilities Advisories</a>
+  </h3>
+
+  
+  <div class="article-style" itemprop="articleBody">
+    Details of my security advisories.
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
+
+  
+    
+
+
+
+<meta content="2017-07-26 00:00:00 &#43;0530 IST" itemprop="datePublished">
+<meta content="2019-04-08 22:00:04 &#43;0530 IST" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Jul 26, 2017</time>
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+  </span>
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3" itemprop="name">
+    <a href="/publication/security-vulnerabilities-acknowledgements/" itemprop="url">Security Vulnerabilities Acknowledgements</a>
+  </h3>
+
+  
+  <div class="article-style" itemprop="articleBody">
+    Details of my security vulnerabilities acknowledgements.
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  <section id="talks" class="home-section wg-pages   " >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Recent &amp; Upcoming Talks</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+      
+        
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/blackhat-usa-2019/" itemprop="url">AUTOMATED DEFENSE USING CLOUD SERVICES FOR AWS, AZURE AND GCP</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>Monitoring for attacks and defending against them in real-time is crucial. The mean time to detect (MTTD) has become an important …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Apr 8, 2019
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Mandalay Bay, Las Vegas, USA</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/nullcon-blr-2019/" itemprop="url">Attacking and Auditing Docker Containers and Kubernetes Clusters</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>This 3 day attack-focused, hands-on training will set you on the path to using common attack techniques against docker, kubernetes, …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Apr 8, 2019
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Royal Orchid Hotels, Bangalore</span>
+        
+      </div>
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      
+        <a href="/authors/madhuakula/">Madhu Akula</a></span></span>
+  
+
+
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/sacon-2019/" itemprop="url">AUTOMATED DEFENCE USING CLOUD SERVICES FOR AWS, AZURE &amp; GCP</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      Monitoring for attacks and defending against them in real-time is crucial. Defending our cloud infrastructure during attacks can prove …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Feb 7, 2019
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Taj Yeshwantpur, Bengaluru</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/e2enetworks-webinar-2018/" itemprop="url">Container Security Monitoring using Open Source</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>While developers, operators and enterprises are adopting containers, security is still considered as one of the prime challenges in …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Dec 10, 2018
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">Live, Online</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/devseccon-london-2018/" itemprop="url">ATTACKING &amp; AUDITING DOCKER CONTAINERS</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>Developers and Operations teams (DevOps) have moved towards containers and modern technologies. Attackers are catching up with these …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Oct 19, 2018
+          
+            12:00 AM
+            
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">London, UK</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+
+    
+    <div class="see-all">
+      <a href="/talk/">
+        See all talks
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </div>
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  <section id="projects" class="home-section wg-portfolio   " >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+<div class="margin-auto">
+
+  <div class="center-text">
+    <h1 class="mt-0">Projects</h1>
+    
+  </div>
+  <div>
+
+
+    
+
+    
+
+      
+
+      
+      
+      
+      
+        
+      
+
+      <span class="d-none default-project-filter">*</span>
+
+      
+      
+      <div class="project-toolbar">
+        <div class="project-filters">
+          <div class="btn-toolbar">
+            <div class="btn-group flex-wrap">
+              
+                
+                
+                
+                  
+                
+                <a href="#" data-filter="*" class="btn btn-primary btn-lg active">All</a>
+              
+                
+                
+                
+                <a href="#" data-filter=".js-id-security" class="btn btn-primary btn-lg">Security</a>
+              
+                
+                
+                
+                <a href="#" data-filter=".js-id-devops" class="btn btn-primary btn-lg">DevOps</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    
+
+    <div class="isotope projects-container js-layout-masonry ">
+      
+        
+        
+        
+          
+          
+        
+        
+          
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-security js-id-automation js-id-golang">
+  <div class="card">
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/madhuakula/hacked-emails" target="_blank" rel="noopener">Hacked Emails</a></h4>
+      <div class="card-desription">
+        <p>Command line utility for hacked-emails</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+      
+        
+        
+        
+          
+          
+        
+        
+          
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-containers js-id-automation js-id-docker js-id-security js-id-devops">
+  <div class="card">
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/madhuakula/introduction-to-containers-using-docker" target="_blank" rel="noopener">Introduction to Containers</a></h4>
+      <div class="card-desription">
+        <p>An Introduction to Containers using Docker and using it for Security Automation - null Bangalore Puliya</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+      
+        
+        
+        
+          
+          
+        
+        
+          
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-security js-id-devsecops js-id-devops">
+  <div class="card">
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/devsecops/awesome-devsecops" target="_blank" rel="noopener">Awesome DevSecOps</a></h4>
+      <div class="card-desription">
+        <p>An authoritative list of awesome devsecops tools with the help from community experiments and contributions. <a href="http://devsecops.org" target="_blank">http://devsecops.org</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+      
+        
+        
+        
+          
+          
+        
+        
+          
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-security js-id-automation js-id-vulnerabilities">
+  <div class="card">
+    
+    <div class="card-text">
+      <h4><a href="https://codevigilant.com" target="_blank" rel="noopener">Code Vigilant</a></h4>
+      <div class="card-desription">
+        <p>Code Vigilant project is created out of the need to have a more secure open source software.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+      
+        
+        
+        
+          
+          
+        
+        
+          
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-datascience js-id-automation js-id-devops js-id-docker">
+  <div class="card">
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/appsecco/docker-data-science-toolbox" target="_blank" rel="noopener">Docker Data Science ToolBox</a></h4>
+      <div class="card-desription">
+        <p>Data Science Command Line Toolbox in a docker container</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+      
+        
+        
+        
+          
+          
+        
+        
+          
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-docs js-id-automation js-id-markdown">
+  <div class="card">
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/madhuakula/null-puliya-markdown-automation" target="_blank" rel="noopener">Markdown Automation</a></h4>
+      <div class="card-desription">
+        <p>Automating Documentation, Presentation, Knowledge base using Markdown (Zero to Hero)</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+      
+        
+        
+        
+          
+          
+        
+        
+          
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-security js-id-automation js-id-sysadmin js-id-ansible js-id-devops">
+  <div class="card">
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/madhuakula/security-automation-with-ansible-2" target="_blank" rel="noopener">Security Automation with Ansible2</a></h4>
+      <div class="card-desription">
+        <p>This repository contains all the code, playbooks, details regarding the book on Security Automation with Ansible2.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+      
+        
+        
+        
+          
+          
+        
+        
+          
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-security js-id-pentest js-id-windows">
+  <div class="card">
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/madhuakula/wincmdfu" target="_blank" rel="noopener">Windows CLI gems</a></h4>
+      <div class="card-desription">
+        <p>wincmdfu project is for windows one line commands that make life easier, shortcuts and command line fu. This is combination of all tweets from @wincmdfu</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+      
+    </div>
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  <section id="contact" class="home-section wg-contact   " >
+    <div class="container">
+      
+
+
+
+
+<div class="row contact-widget">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Contact</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+
+    
+    
+      
+      
+    
+
+    <div class="mb-3">
+      <form name="contact" method="POST" action="https://formspree.io/madhu.akula@hotmail.com">
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputName">Name</label>
+          <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
+        </div>
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputEmail">Email</label>
+          <input type="email" name="email" class="form-control w-100" id="inputEmail" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="inputMessage">Message</label>
+          <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-outline-primary px-3 py-2">Send</button>
+      </form>
+    </div>
+    
+
+    <ul class="fa-ul" itemscope>
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      
+
+    </ul>
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+
+<div class="container">
+  <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; Madhu Akula &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.d7381f2d79e6271d4da28f474f49096c.js"></script>
+
+  </body>
+</html>
+
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>madhuakula on Madhu Akula</title>
+    <link>/authors/madhuakula/</link>
+    <description>Recent content in madhuakula on Madhu Akula</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Madhu Akula</copyright>
+    <lastBuildDate>Mon, 08 Apr 2019 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="/authors/madhuakula/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Attacking and Auditing Docker Containers and Kubernetes Clusters</title>
+      <link>/talk/nullcon-blr-2019/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/nullcon-blr-2019/</guid>
+      <description>Course outline
+ Student training lab setup Docker Quick Start  Getting started with Docker Docker run Dockerfile Docker Management  Docker Advanced Concepts  Docker-compose Docker volumes and networks Docker swarm Portainer  Namespaces Capabilities Control Groups Scenarios  Exploiting docker misconfiguration Attacking Docker Images and Containers Auditing Docker Images and Containers Attacking Private Registry Attacking Docker Volumes and Networks Auditing Docker Volumes and Networks Attacking Container Capabilities Exploiting docker swarm cluster secrets  Docker Integrity Checks Container introspection tool - amicontained Auditing docker container runtime Auditing docker container registries LSM - Apparmor Nginx Profile Docker Bench Security Audit Container Logging and Monitoring  Docker Logging Docker Events  Kubernetes Cluster environments setup Kubernetes 101  Getting started with Kubernetes Introduction to Kubernetes Overview &amp;amp; Technical Terms kubectl usage for pentesters  Deploying simple application in Kubernetes cluster  Using YAML manifest Using helm chart  Scenarios  Exploiting Private Registry via Misconfiguration Attacking Kubernetes Cluster Metadata using SSRF vulnerability Testing for the sensitive configurations and secrets in Kubernetes cluster Docker escape using Pod Volume Mounts to access the nodes and host systems Attacking applications in different namespaces in Kubernetes cluster Attacking Helm tiller with default RBAC setup  Auditing Kubernetes  kube-bench kubesec.</description>
+    </item>
+    
+    <item>
+      <title>Attacking &amp; Auditing Docker Containers Using Open Source</title>
+      <link>/talk/defcon-26/</link>
+      <pubDate>Fri, 10 Aug 2018 10:00:00 +0530</pubDate>
+      
+      <guid>/talk/defcon-26/</guid>
+      <description>Prerequisites  Basic familiarity with Linux and Docker  Materials  A laptop with administrator privileges 10 GB of free Hard Disk Space Ideally 8 GB of RAM but minimum 4 GB Laptop should support hardware-based virtualization  If your laptop can run a 64-bit virtual machine in Oracle VirtualBox it should work Other virtualisation software might work but we will not be able to provide support for that.   Max students 33</description>
+    </item>
+    
+    <item>
+      <title>Attacking &amp; Auditing Docker Containers</title>
+      <link>/talk/usenix-lisa-2018/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/usenix-lisa-2018/</guid>
+      <description>Who should attend:  Penetration Testers Security Engineers/Analysts IT and System Administrators DevOps and Security Teams  Take back to work:  A Gitbook(pdf, epub, mobi) with complete workshop content Virtual machines to learn &amp;amp; practice Other references to learn more about topics covered in the workshop  Topics include: Docker, Containers, Security, Audit, DevSecOps, SecOps
+Prerequisites:  Able to run linux cli commands Basics of system administration Understanding about virutalisation would be useful A laptop with administrator privileges 10 GB of free Hard Disk Space Ideally 8 GB of RAM but minimum 4 GB Laptop should support hardware-based virtualization  If your laptop can run a 64-bit virtual machine in Oracle VirtualBox it should work Other virtualisation software might work but we will not be able to provide support for that.</description>
+    </item>
+    
+    <item>
+      <title>Server Hardening and Security Monitoring</title>
+      <link>/talk/wowlabz-guest-talk/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0530</pubDate>
+      
+      <guid>/talk/wowlabz-guest-talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/author/madhuakula/</link>
+      <pubDate>Mon, 08 Apr 2019 22:00:04 +0530</pubDate>
+      
+      <guid>/author/madhuakula/</guid>
+      <description>Madhu Akula is a security ninja, published author and cloud native researcher with an extensive experience. Also he is an active member of the international security, devops and cloud native communities.
+Madhu frequently speaks and runs training sessions at security events and conferences around the world including DEFCON (26, 24), BlackHat USA (2018, 2019), USENIX LISA 2018, Appsec EU 2018, All Day DevOps (2016, 2017, 2018), DevSecCon (London, Singapore, Boston), DevOpsDays India, c0c0n(2018, 2017), Nullcon 2019, SACON 2019, Serverless Summit, null and multiple others.</description>
+    </item>
+    
+  </channel>
+</rss>
