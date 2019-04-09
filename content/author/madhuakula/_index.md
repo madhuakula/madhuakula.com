@@ -16,7 +16,7 @@ role = "Never Ending Learner!"
 organizations = [ { name = "Security Stuff @ Appsecco", url = "https://appsecco.com" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My research interests include security automation, cloud native infrastructure, containers & cloud security"
+bio = "Madhu Akula is a security ninja, published author and cloud native researcher with an extensive experience. Also he is an active member of the international security, devops and cloud native communities. Madhu frequently speaks and runs training sessions at security events and conferences around the world including DEFCON (26, 24), BlackHat USA (2018, 2019), USENIX LISA 2018, Appsec EU 2018, All Day DevOps (2016, 2017, 2018), DevSecCon (London, Singapore, Boston), DevOpsDays India, c0c0n(2018, 2017), Nullcon 2019, SACON 2019, Serverless Summit, null and multiple others. His research has identified vulnerabilities in over 200 companies and organisations including; Google, Microsoft, LinkedIn, eBay, AT&T, WordPress, NTOP and Adobe, etc. He is co-author of Security Automation with Ansible2 (ISBN-13: 978-1788394512), which is listed as a technical resource by Red Hat Ansible."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "madhu.akula@hotmail.com"
