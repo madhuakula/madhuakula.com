@@ -12,7 +12,7 @@ day_night = true
 font = "default"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "Madhu Akula, Cloud Native Security, Cloud Native Infrastructure, Container Security, Cloud Security, Security Automation, Web Application Security, Network Security, DevOps, SecOps, DevSecOps, Pentesting, Security Research"
+description = "Madhu Akula, Cloud Native Security, Cloud Native Infrastructure, Container Security, Cloud Security, Security Automation, Web Application Security, Network Security, Continuous Security, DevOps, SecOps, DevSecOps, Pentesting, Security Research, Docker Security, Kubernetes Security, Automated Defense, Hacking, Never Ending Learner"
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
 sharing_image = "madhuakula.jpg"

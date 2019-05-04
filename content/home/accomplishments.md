@@ -19,12 +19,22 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "Cloud Native Computing Foundation"
+  organization_url = "https://www.cncf.io"
+  title = "Certified Kubernetes Administrator (CKA)"
+  url = "https://www.cncf.io/certification/cka/"
+  certificate_url = ""
+  date_start = "2019-05-01"
+  date_end = ""
+  description = ""
+
+[[item]]
   organization = "Offensive Security"
   organization_url = "https://www.offensive-security.com/"
   title = "Offensive Security Certified Professional (OSCP)"
   url = "https://www.offensive-security.com/information-security-certifications/oscp-offensive-security-certified-professional/"
   certificate_url = ""
-  date_start = "2016-11-01"
+  date_start = "2016-12-01"
   date_end = ""
   description = ""
 
@@ -34,7 +44,7 @@ date_format = "Jan 2006"
   title = "AWS Security Fundamentals"
   url = "https://aws.amazon.com/training/course-descriptions/security-fundamentals/"
   certificate_url = ""
-  date_start = "2016-12-01"
+  date_start = "2016-11-01"
   date_end = ""
   description = ""
  
