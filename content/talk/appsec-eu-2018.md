@@ -2,7 +2,7 @@
 date = 2018-05-25
 lastmod = 2018-05-25
 
-title = "AUTOMATED DEFENSE USING SERVERLESS FOR AWS, AZURE AND GCP"
+title = "Automated Defense using Serverless for AWS, Azure and GCP"
 
 time_start = 2018-07-03T08:00:00
 time_end = 2016-07-04T17:00:00

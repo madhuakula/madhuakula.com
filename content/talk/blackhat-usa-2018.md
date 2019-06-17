@@ -2,7 +2,7 @@
 date = 2018-02-07
 lastmod = 2018-02-07
 
-title = "AUTOMATED DEFENSE USING CLOUD SERVICES FOR AWS, AZURE AND GCP"
+title = "Automated Defense using Cloud Services for AWS, Azure and GCP"
 
 time_start = 2018-08-04T09:30:00
 time_end = 2018-08-07T18:00:00

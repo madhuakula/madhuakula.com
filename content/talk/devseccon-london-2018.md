@@ -2,7 +2,7 @@
 date = 2018-10-19
 lastmod = 2018-12-05
 
-title = "ATTACKING & AUDITING DOCKER CONTAINERS"
+title = "Attacking & Auditing Docker Containers"
 
 time_start = 2018-10-19T10:20:00
 time_end = 2018-10-19T12:40:00
