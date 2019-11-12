@@ -18,7 +18,7 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Moderator"
+  title = "Moderator - DevSecOps track"
   company = "All Day DevOps"
   company_url = "https://alldaydevops.com"
   location = "Online"
@@ -26,6 +26,28 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
 All Day DevOps is a FREE online community responsible for creating the world’s largest DevOps conference. - [https://www.alldaydevops.com](https://www.alldaydevops.com)
+  """
+
+[[experience]]
+  title = "Speakers Bureau Member"
+  company = "CNCF"
+  company_url = "https://www.cncf.io/speakers/"
+  location = "World Wide"
+  date_start = "2018-11-01"
+  date_end = ""
+  description = """
+The CNCF Speakers Bureau helps connect event organizers with speakers who have varied expertise in the cloud native ecosystem. Speakers consist of CNCF ambassadors, meetup organizers, and prominent community members who are willing to speak at events on the topics they are proficient in.
+  """
+
+[[experience]]
+  title = "Crew Member"
+  company = "Cloud Village - DEF CON"
+  company_url = "https://cloud-village.org/"
+  location = "Las Vegas, USA"
+  date_start = "2019-06-01"
+  date_end = ""
+  description = """
+Part of DEF CON villages in Las Vegas. An open space to meet folks interested in offensive and defensive aspects of cloud security. I was leading in creating and running the CTF for the conference.
   """
 
 [[experience]]
