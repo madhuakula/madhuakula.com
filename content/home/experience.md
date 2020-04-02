@@ -26,6 +26,7 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
 Working with wide variety of teams, clients and community to learn and share pragmatic security knowledge
+
   * Security Engineering & Consulting
   * Cloud, Containers and Kubernetes security
   * Learning and sharing with community :)
