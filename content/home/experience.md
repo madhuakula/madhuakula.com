@@ -18,12 +18,26 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Cloud Native Security Specialist"
+  company = "Xebia"
+  company_url = "https://xebia.com"
+  location = "Amsterdam, Netherlands"
+  date_start = "2020-02-01"
+  date_end = ""
+  description = """
+Working with wide variety of teams, clients and community to learn and share pragmatic security knowledge
+  * Security Engineering & Consulting
+  * Cloud, Containers and Kubernetes security
+  * Learning and sharing with community :)
+  """
+
+[[experience]]
   title = "Security Automation Engineer"
   company = "Appsecco"
   company_url = "https://appsecco.com"
   location = "Bangalore, India"
   date_start = "2018-08-01"
-  date_end = ""
+  date_end = "2020-01-17"
   description = """
 Appsecco is a specialist application security company that ‘gets’ web security and can advise you on the best route for your business.
 
