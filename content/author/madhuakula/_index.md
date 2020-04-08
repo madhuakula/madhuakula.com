@@ -70,6 +70,11 @@ user_groups = ["Researchers", "Visitors"]
   link = "https://github.com/madhuakula"
 
 [[social]]
+  icon = "keybase"
+  icon_pack = "fab"
+  link = "https://keybase.io/madhuakula"
+
+[[social]]
   icon = "blog"
   icon_pack = "fas"
   link = "https://medium.com/@madhuakula"
