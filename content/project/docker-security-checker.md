@@ -16,7 +16,7 @@ image_preview = ""
 tags = ["security", "automation", "golang", "docker"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://github.com/madhuakula/hacked-emails"
+external_link = "https://github.com/madhuakula/docker-security-checker"
 
 # Does the project detail page use math formatting?
 math = false
