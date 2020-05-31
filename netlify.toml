@@ -8,3 +8,9 @@
 
 [context.production.environment]
   HUGO_ENV = "production"
+
+[[redirects]]
+  from = "/content/*"
+  to = "https://content.madhuakula.com/:splat"
+  status = 200
+  force = true
