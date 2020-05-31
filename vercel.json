@@ -5,6 +5,8 @@
     }
   },
   "rewrites": [
+    { "source": "/content", "destination": "https://content.madhuakula.com" },
     { "source": "/content/(.*)", "destination": "https://content.madhuakula.com/$1" }
-  ]
+  ],
+  "trailingSlash": true
 }
