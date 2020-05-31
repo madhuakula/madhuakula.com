@@ -1,0 +1,10 @@
+{
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.69.0"
+    }
+  },
+  "rewrites": [
+    { "source": "/content/(.*)", "destination": "https://content.madhuakula.com/$1" }
+  ]
+}
