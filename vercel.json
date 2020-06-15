@@ -6,7 +6,9 @@
   },
   "rewrites": [
     { "source": "/content", "destination": "https://content.madhuakula.com" },
-    { "source": "/content/(.*)", "destination": "https://content.madhuakula.com/$1" }
+    { "source": "/content/(.*)", "destination": "https://content.madhuakula.com/$1" },
+    { "source": "/kubernetes-goat", "destination": "https://kubernetes-goat.madhuakula.com" },
+    { "source": "/kubernetes-goat/(.*)", "destination": "https://kubernetes-goat.madhuakula.com/$1" }
   ],
   "trailingSlash": true
 }

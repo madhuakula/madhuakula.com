@@ -75,8 +75,8 @@ user_groups = ["Researchers", "Visitors"]
   link = "https://keybase.io/madhuakula"
 
 [[social]]
-  icon = "blog"
-  icon_pack = "fas"
+  icon = "medium"
+  icon_pack = "fab"
   link = "https://medium.com/@madhuakula"
 
 # Link to a PDF of your resume/CV from the About widget.
