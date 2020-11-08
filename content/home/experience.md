@@ -18,18 +18,34 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Security Engineering"
+  company = "Miro"
+  company_url = "https://miro.com"
+  location = "Amsterdam, Netherlands"
+  date_start = "2020-10-01"
+  date_end = ""
+  description = """
+Leading the production security engineering for a hyper-growth online collaborative white board platform.
+
+  * Solving scalable Security Engineering problems
+  * Building & Managing Production Security
+  * Working with global teams and building a security culture
+  * Learning and sharing with the community :)
+  """
+
+[[experience]]
   title = "Cloud Native Security Specialist"
   company = "Xebia"
   company_url = "https://xebia.com"
   location = "Amsterdam, Netherlands"
   date_start = "2020-02-01"
-  date_end = ""
+  date_end = "2020-09-30"
   description = """
 Working with wide variety of teams, clients and community to learn and share pragmatic security knowledge
 
   * Security Engineering & Consulting
   * Cloud, Containers and Kubernetes security
-  * Learning and sharing with community :)
+  * Learning and sharing with the community :)
   """
 
 [[experience]]
