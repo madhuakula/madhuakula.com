@@ -10,7 +10,7 @@
     { "source": "/kubernetes-goat", "destination": "https://kubernetes-goat.madhuakula.com" },
     { "source": "/kubernetes-goat/(.*)", "destination": "https://kubernetes-goat.madhuakula.com/$1" }
   ],
-  "trailingSlash": true.
+  "trailingSlash": true,
   "routes": [
     {
       "src": "/(.*)",
