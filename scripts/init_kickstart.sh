@@ -12,8 +12,14 @@ cd scripts/
 # Install demo config
 rsync -av ../themes/academic/exampleSite/config/ ../config/
 
+# Install Netlify CMS
+rsync -av ../themes/academic/exampleSite/static/admin/ ../static/admin/
+
 # Install demo user
-rsync -av ../themes/academic/exampleSite/content/author/ ../content/author/
+rsync -av ../themes/academic/exampleSite/content/authors/ ../content/authors/
+
+# Install page sharer button customizer
+rsync -av ../themes/academic/data/page_sharer.toml ../data/
 
 # Install an example instance of each widget type
 rsync -av --exclude gallery/ ../themes/academic/exampleSite/content/home/ ../content/home/
