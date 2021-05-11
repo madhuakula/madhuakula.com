@@ -76,7 +76,11 @@ email: "madhu.akula@hotmail.com"
 highlight_name: false
 ---
 
-***Madhu Akula*** is the creator of [Kubernetes Goat](https://github.com/madhuakula/kubernetes-goat), an intentionally vulnerable by design Kubernetes Cluster to learn and practice Kubernetes Security. Also published author and cloud native security researcher with an extensive experience. Also he is an active member of the international security, devops and cloud native communities ([null, DevSecOps, AllDayDevOps, etc](#volunteering)). Holds industry [certifications](#accomplishments) like OSCP (Offensive Security Certified Professional), CKA (Certified Kubernetes Administrator), etc.
+{{% callout note %}}
+Register for my upcoming **Black Hat USA 2021** training **[A Practical Approach to Breaking & Pwning Kubernetes Clusters](https://rebrand.ly/bhusa21)** before it gets sold out.
+{{% /callout %}}
+
+***Madhu Akula*** is the creator of [Kubernetes Goat](https://github.com/madhuakula/kubernetes-goat), an intentionally vulnerable by design Kubernetes Cluster to learn and practice Kubernetes Security. Also published author and cloud native security architect with an extensive experience. Also he is an active member of the international security, devops and cloud native communities ([null, DevSecOps, AllDayDevOps, etc](#volunteering)). Holds industry [certifications](#accomplishments) like OSCP (Offensive Security Certified Professional), CKA (Certified Kubernetes Administrator), etc.
 
 Madhu frequently [speaks and runs training sessions](/talk/) at security events and conferences around the world including DEFCON (24, 26 & 27), BlackHat USA (2018 & 19), USENIX LISA (2018 & 19), O’Reilly Velocity EU 2019, GitHub Satellite 2020, Appsec EU (2018 & 19), All Day DevOps (2016, 17, 18, 19 & 20), DevSecCon (London, Singapore, Boston), DevOpsDays India, c0c0n(2017, 18), Nullcon (2018, 19), SACON 2019, Serverless Summit, null and multiple others.
 
