@@ -42,6 +42,16 @@ experience:
   description: |2-
     USENIX LISA is the premier conference for operations professionals, where sysadmins, systems engineers, IT operations professionals, SRE practitioners, developers, IT managers, and academic researchers share real-world knowledge about designing, building, securing, and maintaining the critical systems of our interconnected world.
 
+- title: "Mentor - Cloud Security"
+  company: "null - The Open Security Community"
+  company_url: "https://null.co.in/"
+  company_logo:
+  location: "Online"
+  date_start: "2021-01-30"
+  date_end: ""
+  description: |2-
+    Mentoring for the Cloud Security Study Group
+
 - title: "Speakers Bureau Member"
   company: "CNCF"
   company_url: "https://www.cncf.io/speakers/"

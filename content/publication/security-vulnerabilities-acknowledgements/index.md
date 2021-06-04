@@ -149,6 +149,7 @@ featured: true
 | WHMCS                   | BASM, XSS, CSRF     |
 | Acorns, LLC             | BASM, XSS, IDOR     |
 | Socrata                 | BASM, CSRF          |
+| Many others             | ...                 |
 
 ### Legend
 
