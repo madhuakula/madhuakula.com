@@ -30,13 +30,23 @@ experience:
     date_start: "2020-10-01"
     date_end: ""
     description: |2-
-      Leading the product security engineering for a hyper-growth online collaborative white board platform.
+      Leading & building the product security engineering for a hyper-growth online collaborative whiteboard platform.
         * Solving scalable Security Engineering problems
-        * Building & Managing Product Security
+        * Building & Managing Product Security teams
         * Working with global teams and creating security culture
         * Learning and sharing with the community
 
-  - title: "Cloud Native Security Specialist"
+  - title: "Advisor"
+    company: "Stealth Startup"
+    company_url: ""
+    company_logo: 
+    location: "Online"
+    date_start: "2020-09-01"
+    date_end: ""
+    description: |2-
+      Research & Innovation, Technology Roadmap, Building awesome teams, culture & company
+
+  - title: "Cloud Native Security"
     company: "Xebia"
     company_url: "https://xebia.com"
     company_logo: 
@@ -75,6 +85,8 @@ experience:
     date_start: "2014-10-01"
     date_end: "2016-05-05"
     description: |2-
+      Joined as a 1st member in the Fortune 1 Network Security team in India and worked collaboratively with the USA team and other teams around the globe.
+
       1. Responsible for the global network security for Walmart eCommerce.
       2. Part of Incident Response team. Worked on Palo Alto, ASA, FWSM firewalls.
       3. Responsible for assessment of automation tools, latest trends to enhance the current security testing practices,update and enhance the standards used in organisation.
@@ -83,7 +95,7 @@ experience:
       6. Acknowledged by CISO, VP for my contribution in improving organisation’s security posture by providing Critical￼ Vulnerabilities in applications and also for internal training among engineering teams in InfoSec.
       7. Won best organizational level awards including AOM (Associate Of the Month), Spot Award in entire InfoSec wing
 
-  - title: "Network Security Consultant"
+  - title: "Security Consultant"
     company: "Payatu"
     company_url: "https://payatu.com"
     company_logo: 

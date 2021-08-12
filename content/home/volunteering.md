@@ -42,6 +42,16 @@ experience:
   description: |2-
     USENIX LISA is the premier conference for operations professionals, where sysadmins, systems engineers, IT operations professionals, SRE practitioners, developers, IT managers, and academic researchers share real-world knowledge about designing, building, securing, and maintaining the critical systems of our interconnected world.
 
+- title: "Community Builder"
+  company: "Amazon Web Services (AWS)"
+  company_url: "https://aws.amazon.com/developer/community/community-builders/"
+  company_logo:
+  location: "Online"
+  date_start: "2021-05-01"
+  date_end: ""
+  description: |2-
+    The AWS Community Builders program offers technical resources, mentorship, and networking opportunities to AWS enthusiasts and emerging thought leaders who are passionate about sharing knowledge and connecting with the technical community.
+
 - title: "Mentor - Cloud Security"
   company: "null - The Open Security Community"
   company_url: "https://null.co.in/"
