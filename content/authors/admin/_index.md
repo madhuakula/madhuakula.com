@@ -10,7 +10,7 @@ role: Never Ending Learner!
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Security Engineering @ Miro
+- name: Product Security @ Miro
   url: https://miro.com
 
 # Short bio (displayed in user profile at end of posts)
