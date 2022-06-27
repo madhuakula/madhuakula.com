@@ -85,3 +85,5 @@ tags
 *.code-workspace
 
 # End of https://www.toptal.com/developers/gitignore/api/hugo,linux,macos,vscode,vim
+
+.hugo_build.lock
