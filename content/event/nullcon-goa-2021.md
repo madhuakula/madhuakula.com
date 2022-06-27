@@ -1,7 +1,7 @@
 +++
 lastmod = 2021-03-01
 
-title = "Hacking and Securing Kubernetes Clusters"
+title = "Virtual Training - Hacking and Securing Kubernetes Clusters"
 
 time = 2021-03-01T10:00:00
 time_end = 2021-03-04T14:00:00
@@ -22,8 +22,8 @@ In this training, we will see both sides (offensive & defensive) of the coin by 
 From an attacker's perspective participants able to assess and attack Kubernetes Cluster environments to gain access to microservices, sensitive data, escapingcontainers, escalating to clusters privileges, and even its underlying cloud environments. Also, we will be using the offensive knowledge to build and design securecluster environments using secure defaults, RBAC, NSP, PSP(deprecating so we may see using OPA), and many other built-in and opensource components.
 """
 abstract_short = ""
-event = "Nullcon 2021"
-3v01t_url = "https://nullcon.net/website/goa-2021/training/hacking-and-securing-kubernetes-clusters.php"
+event = "Nullcon Goa 2021"
+event_url = "https://nullcon.net/website/goa-2021/training/hacking-and-securing-kubernetes-clusters.php"
 location = "Virtual"
 
 # Is this a selected talk? (true/false)
