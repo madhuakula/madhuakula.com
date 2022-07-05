@@ -22,19 +22,37 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: "Founder"
+    company: "Madhu Akula"
+    company_url: "https://madhuakula.com"
+    company_logo: 
+    location: "Amsterdam, Netherlands"
+    date_start: "2022-02-11"
+    date_end: ""
+    description: |2-
+      https://madhuakula.com
+    
   - title: "Product Security"
     company: "Miro"
     company_url: "https://miro.com"
     company_logo: 
     location: "Amsterdam, Netherlands"
     date_start: "2020-10-01"
-    date_end: ""
+    date_end: "2020-06-30"
     description: |2-
-      Leading & building the product security engineering for a hyper-growth online collaborative whiteboard platform.
-        * Solving scalable Security Engineering problems
-        * Building & Managing Product Security teams
-        * Working with global teams and creating security culture
-        * Learning and sharing with the community
+      Leading & building the product security engineering for a hyper-growth online collaborative whiteboard platform. Things happened at Miro since I joined 😊
+
+        * 📈 8M users, and now we have 35M+
+        * 🎉 Built and managed Cloud Native Security, Security Ambassadors teams
+        * 💵 $76M Series B Funding to $476M Series C with $17.5B valuation
+        * ❤️ Miro culture champion, helped to drive community, talent, tech branding
+        * 🎯 99% of Fortune 500 are customers
+        * 🎙 Did more than 80+ interviews at various levels across the organization
+        * 🧑‍🏫 Shared my knowledge and research across multiple international conferences and communities
+        * 👏 Headcount 500 to more than 1500
+        * 🙌 Witnessed billions of requests scale and amazing culture
+        * 🌍 5 hubs to 12 hubs around the globe
+        * 🥳 New Logos, Customers, Integrations, Partnerships, etc.
 
   - title: "Advisor"
     company: "Stealth Startup"
@@ -42,7 +60,7 @@ experience:
     company_logo: 
     location: "Online"
     date_start: "2020-09-01"
-    date_end: ""
+    date_end: "2021-10-31"
     description: |2-
       Research & Innovation, Technology Roadmap, Building awesome teams, culture & company
 

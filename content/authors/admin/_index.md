@@ -10,8 +10,8 @@ role: Never Ending Learner!
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Product Security @ Miro
-  url: https://miro.com
+- name: Pragmatic Security Leader
+  url: 
 
 # Short bio (displayed in user profile at end of posts)
 bio: >
