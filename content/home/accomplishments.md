@@ -25,6 +25,15 @@ date_format: Jan 2006
 item:
 - organization: "Cloud Native Computing Foundation"
   organization_url: "https://www.cncf.io"
+  title: "Certified Kubernetes Security Specialist (CKS)"
+  url: "https://www.cncf.io/certification/cks/"
+  certificate_url: ""
+  date_start: "2022-07-16"
+  date_end: ""
+  description: ""
+
+- organization: "Cloud Native Computing Foundation"
+  organization_url: "https://www.cncf.io"
   title: "Certified Kubernetes Administrator (CKA)"
   url: "https://www.cncf.io/certification/cka/"
   certificate_url: ""

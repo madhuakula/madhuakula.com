@@ -32,6 +32,16 @@ experience:
   description: |2-
     All Day DevOps is a FREE online community responsible for creating the world’s largest DevOps conference. - [https://www.alldaydevops.com](https://www.alldaydevops.com)
 
+- title: "Snyk Ambassador"
+  company: "Snyk"
+  company_url: "https://snyk.io"
+  company_logo:
+  location: "Online"
+  date_start: "2022-07-01"
+  date_end: ""
+  description: |2-
+    Snyk Ambassadors are just as passionate about security as Snyk is — and they share their interest, expertise, and excitement within their communities to help other developers and engineers build secure software. - [https://snyk.io/snyk-ambassadors](https://snyk.io/snyk-ambassadors)
+
 - title: "Program Committee"
   company: "USENIX LISA"
   company_url: "https://www.usenix.org/conference/lisa21"
