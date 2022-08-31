@@ -48,7 +48,7 @@ experience:
   company_logo:
   location: "Online"
   date_start: "2021-01-01"
-  date_end: ""
+  date_end: "2021-12-31"
   description: |2-
     USENIX LISA is the premier conference for operations professionals, where sysadmins, systems engineers, IT operations professionals, SRE practitioners, developers, IT managers, and academic researchers share real-world knowledge about designing, building, securing, and maintaining the critical systems of our interconnected world.
 
@@ -78,7 +78,7 @@ experience:
   company_logo:
   location: "World Wide"
   date_start: "2018-11-01"
-  date_end: ""
+  date_end: "2021-11-15"
   description: |2-
     The CNCF Speakers Bureau helps connect event organizers with speakers who have varied expertise in the cloud native ecosystem. Speakers consist of CNCF ambassadors, meetup organizers, and prominent community members who are willing to speak at events on the topics they are proficient in.
   
