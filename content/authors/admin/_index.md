@@ -76,9 +76,13 @@ email: "madhu.akula@hotmail.com"
 highlight_name: false
 ---
 
-<!-- {{% callout note %}}
-Register for my upcoming **Black Hat USA 2021** training **[A Practical Approach to Breaking & Pwning Kubernetes Clusters](https://rebrand.ly/bhusa21)** before it gets sold out.
-{{% /callout %}} -->
+{{% callout note %}}
+Register for my upcoming [**DEF CON Trainings Bellevue, WA 2023** training **A Practical Approach to Breaking & Pwning Kubernetes Clusters**](https://training.defcon.org/products/madhu-akula-a-practical-approach-to-breaking-pwning-kubernetes-clusters-2) before it gets sold out.
+{{% /callout %}}
+
+{{% callout note %}}
+Register for my upcoming [**Black Hat Asia 2023** training **A Practical Approach to Breaking & Pwning Kubernetes Clusters**](https://www.blackhat.com/asia-22/training/schedule/index.html#a-practical-approach-to-breaking--pwning-kubernetes-clusters-25190) before it gets sold out.
+{{% /callout %}}
 
 **Madhu Akula** is a pragmatic security leader and creator of [Kubernetes Goat](https://github.com/madhuakula/kubernetes-goat), an intentionally vulnerable by design Kubernetes Cluster to learn and practice Kubernetes Security. Also published author and cloud native security architect with an extensive experience. Also he is an active member of the international security, devops and cloud native communities ([null, DevSecOps, AllDayDevOps, AWS, CNCF, USENIX, OWASP, etc](#volunteering)). Holds industry [certifications](#accomplishments) like OSCP (Offensive Security Certified Professional), CKA (Certified Kubernetes Administrator), CKS (Certified Kubernetes Security Specialist), etc.
 
