@@ -2,8 +2,7 @@
 date = 2022-10-04
 lastmod = 2022-10-04
 
-title = "KubeSec Webinar Series 2022 - Scaling Kubernetes Security with Kubernetes Goat
-"
+title = "KubeSec Webinar Series 2022 - Scaling Kubernetes Security with Kubernetes Goat"
 
 time_start = 2022-10-04T11:30:00
 time_end = 2022-10-04T11:55:00
