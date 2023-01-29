@@ -2,7 +2,7 @@
 date = 2023-01-09
 lastmod = 2023-01-09
 
-title = "A Practical Approach To Breaking & Pwning Kubernetes Clusters"
+title = "Black Hat Asia 2023 - A Practical Approach To Breaking & Pwning Kubernetes Clusters"
 
 time_start = 2023-05-09T09:30:00
 time_end = 2023-05-10T18:00:00
@@ -16,7 +16,7 @@ By end of the training, participants will be able to apply their knowledge to pe
 """
 abstract_short = ""
 event = "Black Hat Asia 2023"
-event_url = "https://www.blackhat.com/asia-23/training/schedule/presenters.html#madhu-akula-33275"
+event_url = "https://www.blackhat.com/asia-23/training/schedule/index.html#a-practical-approach-to-breaking--pwning-kubernetes-clusters-29818"
 location = "Singapore"
 
 # Is this a selected talk? (true/false)
