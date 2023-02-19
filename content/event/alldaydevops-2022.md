@@ -2,7 +2,7 @@
 date = 2022-11-10
 lastmod = 2022-11-10
 
-title = "Scaling Kubernetes Security with Kubernetes Goat"
+title = "All Day DevOps 2022 - Scaling Kubernetes Security with Kubernetes Goat"
 
 time_start = 2022-11-10T12:30:00
 time_end = 2022-11-10T13:00:00
