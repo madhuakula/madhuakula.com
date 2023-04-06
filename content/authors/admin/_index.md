@@ -77,7 +77,7 @@ highlight_name: false
 ---
 
 {{% callout note %}}
-Register for my upcoming [**DEF CON Trainings Bellevue, WA 2023** training **A Practical Approach to Breaking & Pwning Kubernetes Clusters**](https://training.defcon.org/products/madhu-akula-a-practical-approach-to-breaking-pwning-kubernetes-clusters-2) before it gets sold out.
+Register for my upcoming [**Black Hat USA Trainings 2023** trainings **A Practical Approach to Breaking & Pwning Kubernetes Clusters**](https://www.blackhat.com/us-23/training/schedule/presenters.html#madhu-akula-33275) before it gets sold out.
 {{% /callout %}}
 
 
