@@ -38,7 +38,7 @@ experience:
     company_logo: 
     location: "Amsterdam, Netherlands"
     date_start: "2020-10-01"
-    date_end: "2020-06-30"
+    date_end: "2022-06-30"
     description: |2-
       Leading & building the product security engineering for a hyper-growth online collaborative whiteboard platform. Things happened at Miro since I joined 😊
 
